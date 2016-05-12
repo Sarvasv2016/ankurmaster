@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--CSS-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/layout.css">
+    <style>
+        .loader{
+            height: 200px;
+            width: 200px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+           
+            margin-top: 50px;
+            margin-bottom: 20px;
+            padding: 0.1px;
+           
+        }
+        .le{
+          
+            display: block;
+            background: #6699ff;
+           
+          
+            border: 2px black solid;
+            box-shadow: 0 0 2px black;
+            
+            
+        }
+    
+    </style>
+<!--JS-->
+    <script type="text/javascript" src="scripts/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="scripts/layout.js"></script>
+    <script type="text/javascript">
+   $(document).ready(function(){ 
+       $('.loader').html("<div class='le'></div>");
+        var lim=($('.loader').attr('lim'));
+       $('.loader').css({'width':''+lim+'px','height':''+lim+'px'});
+        var le=$('.le');
+        var hle;
+        var wle;
+       var c=100;
+       var ll=lim/10;
+       le.css({'marginLeft':''+lim/2+'px','marginTop':''+lim/2+'px'});
+       
+      
+        while(c>0) {
+            wle=Math.floor(Math.random()*lim*0.45+1);hle=Math.floor(Math.random()*lim*0.45+1);
+            if(wle<ll)wle=ll; if(hle<ll)hle=ll;
+    le.animate({width:''+wle+'px',height:''+hle+'px'});
+           
+            
+            le.animate({ width:'0'});
+           
+            
+            wle=Math.floor(Math.random()*lim*0.45+1);hle=Math.floor(Math.random()*lim*0.45+1);
+            if(wle<ll)wle=ll; if(hle<ll)hle=ll;
+            le.animate({width:''+wle+'px',marginLeft:''+(lim/2-wle)+'px',height:''+hle+'px'});
+            
+            
+            le.animate({height:'0'});
+            
+            
+  wle=Math.floor(Math.random()*lim*0.45+1);hle=Math.floor(Math.random()*lim*0.45+1);
+            if(wle<ll)wle=ll; if(hle<ll)hle=ll;
+            le.animate({height:''+hle+'px',marginTop:''+(lim/2-hle)+'px',width:''+wle+'px',marginLeft:''+(lim/2-wle)+'px'});
+            
+             
+    le.animate({width:'0',marginLeft:''+lim/2+'px'});
+            
+       wle=Math.floor(Math.random()*lim*0.45+1);hle=Math.floor(Math.random()*lim*0.45+1);
+            if(wle<ll)wle=ll; if(hle<ll)hle=ll;
+    le.animate({width:''+wle+'px',height:''+hle+'px',marginTop:''+(lim/2-hle)+'px'});
+            
+          
+    le.animate({height:'0',marginTop:''+lim/2+'px'});
+            
+             
+            
+
+            c--;
+        }
+       
+                               });
+    
+    
+    </script>
+    
+    <title>Sarvasv Responsive Framework</title>
+    
+    </head>
+<body >
+    
+<div class="col-8 border">
+    <h1>Loader...</h1>
+    
+    <div class="loader" lim="200">
+     
+    </div>
+    
+    
+    
+    </div>
+  
+    </body>
+
+</html>
