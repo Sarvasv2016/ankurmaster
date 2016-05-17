@@ -126,6 +126,31 @@ $(document).ready(function(){
             iiu=2;
         }
     });
+    $(".profile>div:nth-child(2)").hover(function(){
+        
+        $(".profile").addClass("tilt1");
+    },function(){
+         $(".profile").removeClass("tilt1");
+        
+    });  $(".profile>div:nth-child(3)").hover(function(){
+        
+        $(".profile").addClass("tilt2");
+    },function(){
+         $(".profile").removeClass("tilt2");
+        
+    });  $(".profile>div:nth-child(4)").hover(function(){
+        
+        $(".profile").addClass("tilt3");
+    },function(){
+         $(".profile").removeClass("tilt3");
+        
+    });  $(".profile>div:nth-child(5)").hover(function(){
+        
+        $(".profile").addClass("tilt4");
+    },function(){
+         $(".profile").removeClass("tilt4");
+        
+    });
 });
     
     //Slider
