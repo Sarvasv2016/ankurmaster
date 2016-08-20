@@ -10,6 +10,7 @@
     
     
 }
+    
 
 .logo2{
     
@@ -40,11 +41,11 @@
 .bodyc{
    padding-top: 90px;
     min-width: 100%;
-    max-width:100%;
-    width:100%;
+    max-width: 100%;
+    width: 100%;
+    min-height: 100%;
     position: absolute;
     right: 0;
-    min-height: 100%;
     left:0;
     z-index: 10;
     background-color: white;
@@ -62,9 +63,9 @@
     margin-top: 18px;
     cursor: pointer;
     }
-.search
-{
+.search{
     margin-left: 50px;
+    
 }
 .searchb{
    
@@ -167,26 +168,6 @@
 .bodym>ul>li>ul>li:last-child{border-bottom: none; margin-bottom: -3px}
 .bodym>ul>li>ul>li:before{content:'•' }
 .bodym>ul>li>ul>li>a{color: white;font-family: sans-serif; text-decoration: none;}
-.form:nth-child(3)
-{
-    overflow: scroll;
-    height: 300px;
-}
-.form:nth-child(3)::-webkit-scrollbar {
-    width: 2px;
-}
-.form:nth-child(3)::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
-.form:nth-child(3)::-webkit-scrollbar-thumb {
-  background-color: #999;
-  outline: 1px solid slategrey;
-}
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-}
 /*end*/
 .rotate{
      -webkit-animation: rotate 5s linear infinite; /* Chrome, Safari, Opera */
@@ -204,10 +185,10 @@ input[type=number]::-webkit-outer-spin-button {
     text-decoration: none;
     
 }
-.reg{width: 40%;
+.reg{width: 60%;
    
     display: block;
-    margin-left: 30%;
+    margin-left: auto;
     margin-right: auto;
   
     height:300px;
@@ -216,7 +197,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding-bottom: 0;
     box-shadow: 0 0 20px #333333;
     
-    border-radius: 15px 0px 0 0;   
+    border-radius: 15px 15px 0 0;   
     border: 3px #333333 solid;
     background: #4d4d4d;
     z-index: 1;
@@ -228,22 +209,24 @@ input[type=number]::-webkit-outer-spin-button {
    
 }
 
-.form input{
+.form>input{
    
 }
-.form input[type=date]:after{
+.form>input[type=date]:after{
     content: 'Enter DOB.';
     color:darkgrey;
 }
 
-.form input,.form>select{
-    width: 90%;
+.form>input,.form>select{
+    width: 80%;
+    
+   
 }
-
-.form select{
+.form>select{
     background: white;
     color:black;
 }
+
 .form:nth-child(2){
   margin-left: 110%;
     margin-top:-100px;
@@ -261,12 +244,14 @@ input[type=number]::-webkit-outer-spin-button {
     background: maroon;
     color:white;
     padding: 5px;
+    
     z-index: 10;
     display: block;
+    width: 100%;
     opacity: 0;
     border-radius: 0 0 15px 15px  ;
-    width:50%;
-    margin-left: 30%;
+    width:60%;
+    margin-left: auto;
     margin-right: auto;
    
     margin-bottom: 10px;
@@ -286,11 +271,9 @@ input[type=number]::-webkit-outer-spin-button {
     text-align: center;
     border: 3px #333333 solid;
     transition: background 0.5s,color 1s,box-shadow 1s;
-    cursor:pointer;
+    cursor: pointer;
     z-index: 100;
-    background: #4d4d4d;
-    box-shadow: 0 0 20px #333333;
-
+    
 }
 .btn:hover{
     background: #333333;
@@ -300,45 +283,36 @@ input[type=number]::-webkit-outer-spin-button {
 .btn:active{
     background: white;
 }
-.btn2{
-    font-size: 100px;
-    font-family: heading;
-    float:right;
-    width: 10%;
-    margin-right: 20%;
-    margin-top: -300px;
-    height: 300px;
-    border-radius: 0 15px 0 0;
-    padding-top:80px;
-    box-shadow: 0 0 0 ;
-    text-align: center;
-    border: 3px #333333 solid;
-    transition: background 0.5s,color 1s,box-shadow 1s;
-    cursor:pointer;
-    z-index: 100;
-    background: #4d4d4d;
-    box-shadow: 0 0 20px #333333;
-    display:none;
-
-}
-.btn2:hover{
-    background: #333333;
-    color: white;
-    box-shadow: -5px 0 5px black;
-}
-.btn2:active{
-    background: white;
-}
 /* Chrome, Safari, Opera */
 @-webkit-keyframes rotate {
     0%   { -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Safari */
     transform: rotate(0deg);}
    
-    100% { -ms-transform: rotate(3600deg); /* IE 9 */
+    100% { -ms-transform: rotate(360deg); /* IE 9 */
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);}
 }
+@-webkit-keyframes rotate1 {
+   0%   { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+   
+    100% { -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);}
+}
+@-webkit-keyframes rotate2 {
+     0%   { -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);}
+   
+    100% { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+}
+}
+
 
 /* Standard syntax */
 @keyframes rotate {
@@ -346,10 +320,143 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-transform: rotate(0deg); /* Safari */
     transform: rotate(0deg);}
    
-    100% { -ms-transform: rotate(-3600deg); /* IE 9 */
+    100% { -ms-transform: rotate(-360deg); /* IE 9 */
     -webkit-transform: rotate(-360deg); /* Safari */
     transform: rotate(-360deg);}
 }
+@keyframes rotate1 {
+    0%   { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+   
+    100% { -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);}
+}
+@keyframes rotate2 {
+    0%   { -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);}
+   
+    100% { -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);}
+}
+/*Footer*/
+.transbl{
+     background: -webkit-linear-gradient(left, rgba(255,0,0,0)50% ,black ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, black  ,rgba(255,0,0,0)50%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,  black  ,rgba(255,0,0,0)50%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, black  ,rgba(255,0,0,0)50%); /* Standard syntax */
+     height:100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    width:4%;
+  
+    left:0;
+}
+.transbr{
+     background: -webkit-linear-gradient(left, black,rgba(255,0,0,0)50%  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right,rgba(255,0,0,0)50% ,black  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right,rgba(255,0,0,0)50%,  black  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right,rgba(255,0,0,0)50%, black  ); /* Standard syntax */
+   height:100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    width:4%;
+    
+    right: 0px;
+}
+.mainfooter
+{
+    position:relative;
+    color:azure;
+    font-family:serif;
+    padding:0px;
+    margin-top:20px;
+    
+    box-shadow:0px -1px 5px black; 
+    border-top: 5px outset #6699ff;
+    z-index: 40;
+    background: #4f4f4f;
+    
+}
+.mainfooter>p:nth-child(3){
+   font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+.midfooter
+{
+    background-color: #333333;
+    filter;
+    z-index:60;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+.sponsors
+{
+    display:inline;
+    height:4.5%;
+    width:4.5%;
+    padding:0.5%;
+    box-shadow: 0px 0px 15px black; 
+    background-color: gainsboro;
+    margin-top:3px;
+    border-radius:5px;
+}
+.followus
+{
+    position: relative;
+    float: right;
+    padding: 10px;
+    padding-right: 60px;
+   
+    
+}
+.followus>img{
+    height: 50px;
+   
+    display:inline;
+    
+
+    box-shadow: 0px 0px 15px black; 
+   
+   
+    border-radius:100%;
+    transition: background 1s;
+   
+    
+   
+}
+.followus>img:nth-child(1):hover{
+    background:navy;
+}
+.followus>img:nth-child(2):hover{
+    background:deepskyblue;
+}
+.followus>img:nth-child(3):hover{
+    background:darkred;
+}
+.tc>center>a>u
+{
+    color: azure;
+    font-size:100%;
+    margin-bottom: auto;
+}
+.block
+{
+    display:block;
+    margin-left:1px;
+    margin-top:0%;
+    font-size:100% 
+}
+
+
 
 
 @media screen and (max-width: 960px) {
@@ -358,12 +465,17 @@ input[type=number]::-webkit-outer-spin-button {
     .bodym>form>fieldset>input{font-size: 15px;}
     .bodym>form{padding: 0px;margin-left: 5px; }
     .bodym>form>fieldset{border:0; padding: 0;}
-    .menuf{left:10px;}    
+    .menuf{left:10px;}
+    .followus{padding-right: 10px;}
+    
 }
 @media only screen and (max-width: 600px) {
     /* For mobiles: */
     .arrow{margin-left:130px;}
     .bodym{ width:100%;}
     .bodym>form>fieldset>input{font-size: 15px;}
+    .followus{padding-right: 10px;}
+   
     .menuf{left:10px;}
+   
 }

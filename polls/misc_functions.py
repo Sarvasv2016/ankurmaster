@@ -19,6 +19,16 @@ def mail(eid):
    t=msg.send()
    return otpstr
 
+def mail2(eid,quizname):
+   #email = EmailMessage('Subject','otp', to=[eid])
+   subject, from_email, to = 'hello', 'solankiarnav123@gmail.com', eid
+   text_content = 'This is an important message.'
+   html_content = '<p><a><strong>You have successfully registered for the quiz'+quizname+'</strong></a></p>'
+   msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+   msg.attach_alternative(html_content, "text/html")
+   t=msg.send()
+   return 0
+
 def tablechk(tabname,field1,var):
 
    conn=sqlite3.connect('db.sqlite3')

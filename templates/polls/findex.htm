@@ -1,40 +1,49 @@
-
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <head>
-    {%load static%}
+    {% load static %}
+
     <div class="header">
         <img src="{% static "images/head.png"%}" class="head">
         
      </div>
-    <img src="{% static "images/s_logo_2.png"%}" class="logo2">
-    <img src="{% static "images/s_logo_1.png"%}" class="logo1">
+    <img src="{% static  "images/s_logo_2.png"%}" class="logo2">
+    <img src="{%static "images/s_logo_1.png"%}" class="logo1">
     <div class="header2">
-    <img src="{% static "images/arrow.png"%}" class="arrow">
-        <img src="{% static "images/search.png"%}" class="search">
+    <img src="{%static "images/arrow.png"%}" class="arrow">
+        <img src="{%static  "images/search.png" %}" class="search">
         
         <input type="text" class="searchb" >
         
         <span class="rightt">Sign in/up</span>
     
- <img src="{% static "images/glare.png"%}" class="glare">
+ <img src="{% static  "images/glare.png"%}" class="glare">
     </div>
     
     <title>Sarvasv-IITBHU</title>
  <!-- css-->
-    <link rel="stylesheet" type="text/css" href={% static "stylesheets/layout.css"%}>
+    <link rel="stylesheet" type="text/css" href="{% static  "stylesheets/layout.css"%}">
     <link rel="stylesheet" type="text/css" href="{% static "stylesheets/main.css"%}">
+     <link rel="stylesheet" type="text/css" href="{% static "stylesheets/home.css"%}">
  <!-- Scripts -->
-    <script src="{% static "scripts/jquery-2.2.1.min.js"%}" type="text/javascript"></script>
-     <script src="{% static "stylesheets/layout.js"%}" type="text/javascript"></script>
-     
-  
+    <script src="{%static "scripts/jquery-2.2.1.min.js"%}" type="text/javascript"></script>
+     <script src="{%static "scripts/layout.js"%}" type="text/javascript"></script>
+      <script src="{%static "scripts/home.js"%}" type="text/javascript" >
+    </script>
+  <div class="messagebox"><div class="messagetitle"></div><div class="messagetext"></div>
+</div><div class="closingmessage">«</div>
     
 </head>
-
+<div class="loaderfade"></div>
+<div class="border4"><div class="border3"></div>
+    <div class="border2"></div>
+    <div class="border1"></div>
+    <img src="{% static "images/s_logo_2.png" %}" class="flags">
+    <img src="{% static "images/s_logo_1.png" %}" class="globe">
+</div>
 <body><div class="bodym">
     
-    <img src="{%  static "images/logobed.png"%}" class="logobed">
+    <img src="{%static "images/logobed.png"%}" class="logobed">
     <ul>
         <li><span class="plus">Events</span>
         <ul>
@@ -62,66 +71,147 @@
     <form method="post" action="">
     <fieldset>
         <legend>Login</legend>
-        <input type="text" name="uname" placeholder="User name">
-        <br><input type="password" name="pwd" placeholder="Password">
-        <br><input type="submit" value=" Login ">
+        <input type="text" name="uname" placeholder="User name" id="uname1">
+        <br><input type="password" name="pwd" placeholder="Password" id="pwd1">
+        <br><input type="button" id="loginb" value=" Login ">
         <ul><li><a href="#">Forgot Password ?</a></li><li><a href="#">Register</a></li></ul>
         </fieldset>
     </form>
-    <img src="{% static "images/menu_foot.png" %}" class="menuf">
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        function getCookie(c_name) {
+        if(document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
+            if(c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                c_end = document.cookie.indexOf(";", c_start);
+                if(c_end == -1) c_end = document.cookie.length;
+                return unescape(document.cookie.substring(c_start,c_end));
+            }
+        }
+        return "";
+    }
+       $(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": getCookie("csrftoken")
+            }
+        });
+           });
+        var uname,pwd;
+        uname = $("#uname1").val();
+         pwd = $("#pwd1").val();
+        uname="qaz";
+        pwd="qwertyuio";
+    $("#loginb").click(function(){
+   $.ajax({
+       type:'POST',
+       dataType:"json",
+	url:'http://127.0.0.1:8000/polls/home/',
+	data:{
+          uname:uname,
+          pwd:pwd,
+
+       	  csrfmiddlewaretoken:'{{csrftoken}}'
+	},
+	success:function(json){
+	if(json.flag==0){
+	   alert("Login id or Password is Incorrect ");
+ 	   }
+	else
+    {
+    window.open("http://127.0.0.1:8000/polls/home/dashboard/","_self")
+
+    }
+	}
+
+	});
+    });
+    });
+     </script>
+    <img src="{% static "images/menu_foot.png"%}" class="menuf">
     
          
     </div>
-    <div class="bodyc"><br>
-    <div class="col-12 border" >
-        <h1>Registration </h1>
-        
-        <div class='reg'>
+    <div class="bodyc">
+        <br>
+          <div class="slider border"> 
+           
+           <img src="{%static "images/sl_l2.png"%}" class="a1">
+           <img src="{% static "images/sl_l1.png"%}" class="a2">
+           
+           <span class="a3">Sarvasv</span>
+           <div class="a4"></div>
+           <div class="a5"></div>
+           <div class="a6"></div>
+           <div class="a7"></div>
+           <img src="{%static "images/elib.png"%}" class="a8">
+           <img src="{%static "images/evt.png"%}" class="a9">
+           <img src="{%static "images/webn.png"%}" class="a10">
+           <img src="{%static "images/frm.png"%}" class="a11">
+           <span class="a12">HandPicked Lectures and Refrences for various topics.</span>
+           <span class="a13">Series of Competitive events with All India Leaderboard.</span>
+           <span class="a14">Interactive Web Seminars from techies all around the globe.</span>
+           <span class="a15">Discuss, Deduce & Elucidate.</span>
+           <span class="a16">E-LIBRARY</span>
+            <span class="a17">EVENTS</span>
+            <span class="a18">WEBINARS</span>
+            <span class="a19">FORUM</span>
+           <img src="{%static "images/sl_l1.png"%}" class="a20">
+           <img src="{%static "images/sl_l2.png"%}" class="a21">
+          <span class="a22">Bringing the budding Technocrats from all over the world to their dream platform.</span>
+           <a href="#" class="a23">Register Now!</a>
+           <img src="{%static "images/reload.png"%}" class="a24">
+       </div>
+        <div class="row">
+        <div class="col-8 intro ">
             
-            <div class="form">
-            <input type="text" name="UserName" placeholder="User Name" value=""><br>
-                <input list="college" name="college" placeholder="College">
-                    <datalist id="college">
-                        <option value="IITBHU">
-                        <option value="IITB">
-                        <option value="IITD">
-                        <option value="IITR">
-                        <option value="IITKgp">
-                        <option value="IITKgp">
-                    </datalist>
-    
-             <br>
-             <input type="email" name="email" placeholder= "Email" ><br>             
-             <input type="Password" name="password" placeholder="Enter Password" id='rpwd' ><br>
-             <input type="password" name="cpassword" placeholder="Confirm Password" id='rcpwd' ><br>
-          
-        </div>
-        <div class="form"> blah blaccccch blah blah<br>
+            Sarvasv is an online platform created and maintained by students of IIT (BHU) Varanasi.
+ Sarvasv carries a vision of bringing the student community from all over the country closer to different fields and aspects of science, technology and engineering. It aims to promote creativity, imagination, innovation and logical reasoning among the budding engineers and technocrats of this nation.
+
             </div>
-        <div class="form">
-            <input type="text" name="firstname" placeholder="First Name"><br>
-            <input type="text" name="lastname" placeholder="Last Name"><br>
-             
-            <input type="Date" name="dob" min="1900-01-01"> <br>
-            <input type="text" name="fathername" placeholder="Father's Name"> <br>
-            <input type="text" name="address" placeholder="Address"><br>
-            <input type="number" name="pincode" placeholder="PinCode"><br>
-            <input type="number" name="contactno" placeholder="Contact Number"><br>
-            <input type="file" name="picture" placeholder="Picture">
-            <br>
-            <br>
-             <br>
+        <div class="col-4">
+            <h2>Updates</h2>
             
-        </div>
+            </div></div>
+       
         
         
         
-        </div> <div class="btn">&raquo;</div>
-        <span class="rmsg"></span>
+    <div class="mainfooter col-12">
+
+    
+        <div class="transbr"></div>
+         <div class="transbl"></div>
+    <p>"Sarvasv is an online platform dhfadsfadhfajkfaba;fhs".</p>
+        <hr size="3px" color="azure">
+    <div class="midfooter">
+        <marquee behavior="alternate" direction="left" width="100%">
+        <img src="{%static "images/sspon.png"%}" class="sponsors">
+        
+        <img src="{%static "images/sspon.png"%}" class="sponsors">
+         <img src="{%static "images/sspon.png"%}" class="sponsors">
+         <img src="{%static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{%static "images/sspon.png"%}" class="sponsors">
+         <img src="{%static "images/sspon.png"%}" class="sponsors">
+            </marquee>
        
     </div>
-        <button id="hello">hello</button>
-   </div>
+        <hr size="3px" color="azure">
+    <p class="Poweredby">Powered by: Technex, IIT(BHU)</p>
+       <div class="followus">
+           <img src="{%static "images/fb.png"%}">
+        <img src="{%static "images/tw.png"%}"  >
+           <img src="{%static "images/yt.png"%}"  >
+           </div>
+    <p class="block" padding="10%">&#169;Sarvasv2016</p>
+    <div class="tc">
+       <center><a href="terms and conditions.html"><u>Terms and Conditions</u></a></center> 
+    </div>
+    </div></div>
+   
     </body>
 
 </html>
