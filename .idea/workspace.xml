@@ -14,9 +14,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$views.coverage" NAME="views Coverage Results" MODIFIED="1459529978684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
-    <SUITE FILE_PATH="coverage/untitled$counter.coverage" NAME="counter Coverage Results" MODIFIED="1471726767568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/untitled$file26.coverage" NAME="file26 Coverage Results" MODIFIED="1471126831744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/" />
+    <SUITE FILE_PATH="coverage/untitled$counter.coverage" NAME="counter Coverage Results" MODIFIED="1471726767568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/untitled$views.coverage" NAME="views Coverage Results" MODIFIED="1459529978684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,7 +48,7 @@
       <file leaf-file-name="verma.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/verma.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.615385" vertical-offset="2188" max-vertical-offset="4199">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="4199">
               <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
               <folding />
             </state>
@@ -58,7 +58,7 @@
       <file leaf-file-name="select_quiz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="1870" max-vertical-offset="3060">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="3060">
               <caret line="130" column="61" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="61" />
               <folding />
             </state>
@@ -68,21 +68,9 @@
       <file leaf-file-name="quiz_table.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/quiz_table.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693" vertical-offset="340" max-vertical-offset="2533">
+            <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2533">
               <caret line="35" column="138" selection-start-line="35" selection-start-column="138" selection-end-line="35" selection-end-column="138" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="counter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,85 +78,10 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17336152" vertical-offset="5817" max-vertical-offset="17323">
-              <caret line="347" column="32" selection-start-line="347" selection-start-column="32" selection-end-line="347" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.68550724" vertical-offset="5817" max-vertical-offset="17323">
+              <caret line="370" column="90" selection-start-line="370" selection-start-column="90" selection-end-line="370" selection-end-column="90" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-                <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-                <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-                <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-                <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-                <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-                <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-                <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-                <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
               </folding>
             </state>
           </provider>
@@ -177,7 +90,7 @@
       <file leaf-file-name="quiz_first.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-63.423077" vertical-offset="340" max-vertical-offset="2788">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2788">
               <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
               <folding />
             </state>
@@ -197,7 +110,7 @@
       <file leaf-file-name="quiz.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/quiz.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-125.53846" vertical-offset="0" max-vertical-offset="6392">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="6392">
               <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
               <folding />
             </state>
@@ -217,7 +130,7 @@
       <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
               <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding />
             </state>
@@ -308,6 +221,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,129 +230,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled21" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="polls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,7 +239,7 @@
     <property name="recentsLimit" value="5" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="H:/untitled210" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -809,25 +602,25 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1920573" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27683616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19210175" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19076306" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28531075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27683616" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28531075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -882,6 +675,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/polls/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/misc_functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
@@ -930,81 +731,6 @@
           <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-            <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-            <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-            <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-            <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-            <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-            <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
           </folding>
         </state>
       </provider>
@@ -1013,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1100,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="1394">
           <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#24#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1110,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70183486" vertical-offset="0" max-vertical-offset="442">
           <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,9 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.1607565" vertical-offset="0" max-vertical-offset="423">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1149,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="7041" max-vertical-offset="8551">
           <caret line="427" column="0" selection-start-line="427" selection-start-column="0" selection-end-line="427" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,7 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2924" max-vertical-offset="3774">
           <caret line="172" column="13" selection-start-line="172" selection-start-column="13" selection-end-line="172" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3428" max-vertical-offset="4335">
           <caret line="130" column="31" selection-start-line="130" selection-start-column="31" selection-end-line="130" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.7917888" vertical-offset="0" max-vertical-offset="2159">
           <caret line="112" column="21" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="2941">
           <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1071">
           <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          <folding>
-            <marker date="1471468393741" expanded="true" signature="-1:-1" placeholder="Select Count..missing_value..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.384615" vertical-offset="4295" max-vertical-offset="6222">
           <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.6479166" vertical-offset="0" max-vertical-offset="2023">
           <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1229,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83950615" vertical-offset="340" max-vertical-offset="2346">
           <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-72.38461" vertical-offset="90" max-vertical-offset="2244">
           <caret line="116" column="51" selection-start-line="114" selection-start-column="11" selection-end-line="116" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2014" max-vertical-offset="2584">
           <caret line="121" column="17" selection-start-line="121" selection-start-column="17" selection-end-line="121" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="30.538462" vertical-offset="2307" max-vertical-offset="2754">
           <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="908" max-vertical-offset="1394">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,7 +976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/verma.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.615385" vertical-offset="2188" max-vertical-offset="4199">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2516" max-vertical-offset="4199">
           <caret line="148" column="40" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
           <folding />
         </state>
@@ -1283,7 +984,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/quiz_table.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693" vertical-offset="340" max-vertical-offset="2533">
+        <state vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2533">
           <caret line="35" column="138" selection-start-line="35" selection-start-column="138" selection-end-line="35" selection-end-column="138" />
           <folding />
         </state>
@@ -1293,25 +994,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37136465" vertical-offset="2571" max-vertical-offset="5253">
           <caret line="161" column="30" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/quiz.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-125.53846" vertical-offset="0" max-vertical-offset="6392">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="6392">
           <caret line="192" column="22" selection-start-line="192" selection-start-column="22" selection-end-line="192" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-63.423077" vertical-offset="340" max-vertical-offset="2788">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="2788">
           <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
           <folding />
         </state>
@@ -1333,7 +1023,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="1870" max-vertical-offset="3060">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2210" max-vertical-offset="3060">
           <caret line="130" column="61" selection-start-line="130" selection-start-column="61" selection-end-line="130" selection-end-column="61" />
           <folding />
         </state>
@@ -1349,85 +1039,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17336152" vertical-offset="5817" max-vertical-offset="17323">
-          <caret line="347" column="32" selection-start-line="347" selection-start-column="32" selection-end-line="347" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.68550724" vertical-offset="5817" max-vertical-offset="17323">
+          <caret line="370" column="90" selection-start-line="370" selection-start-column="90" selection-end-line="370" selection-end-column="90" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-            <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-            <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-            <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-            <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-            <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-            <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
           </folding>
         </state>
       </provider>
