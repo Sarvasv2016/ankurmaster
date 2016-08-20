@@ -2,12 +2,27 @@ from django.conf.urls import url
 from . import views
 from polls.views import *
 urlpatterns = [
+ url(r'^home/$', views.login),
+ url(r'^home1/$', views.func1),
+ url(r'^home/dashboard/$', views.dashboard1),
+ url(r'^events/selquiz/$', views.selquiz),
  url(r'^register/$', views.register),
  url(r'^polls_json/$', views.ajax),
- url(r'^register/test/$',views.quizcrtab),
- url(r'^register/test1/$',views.quizuptab),
- url(r'^register/test2/$',views.editq),
+ url(r'^register/test/$',views.test),
+ url(r'^register/QuizReg/EditOrCreate/(?P<quizname>.+)/$',views.quizuptab),
+ url(r'^register/QuizReg/Delete/(?P<quizname>.+)/$',views.delref),
+ url(r'^register/test2/(?P<quizname>.+)/$',views.editq),
+ url(r'^register/test3/(?P<quizname>.+)/$',views.delq),
  url(r'^register/(?P<eid>.+)/(?P<otp>\d+)/$',views.transfer_details),
  url(r'^register/(?P<eid>.+)/(?P<otp>\d+)/interests/$',views.register2),
  url(r'^register/(?P<eid>.+)/(?P<otp>\d+)/interests/dashboard/$',views.register3),
+ url(r'^register/QuizReg/$',views.QuizReg),
+ url(r'register/QuizReg/EditOrCreate/$',views.EditOrCreate),
+ url(r'register/QuizReg/EditOrCreate1/CreateQuiz/$',views.CreateQuiz),
+ url(r'events/selquiz/desc/(?P<quizname>.+)/$',views.RegCheck),
+ url(r'events/selquiz/desc/register/(?P<quizname>.+)/$',views.UserQuizReg),
+ url(r'events/selquiz/quiz/QuizPlay/(?P<quizname>.+)/$',views.QuizPlay),
+ url(r'events/selquiz/quiz/(?P<quizname>.+)/$',views.quizgo),
+ url(r'register/QuizReg/EditOrCreate/ChangeDate/$',views.ChangeDate)
+
 ]

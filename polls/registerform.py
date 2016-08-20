@@ -1,5 +1,5 @@
 from django import forms
-from polls.models import Users,UserProfile
+from polls.models import Users,UserProfile,QuizReg
 
 
 class UserForm(forms.ModelForm):
@@ -17,11 +17,9 @@ class UserForm(forms.ModelForm):
 
 class UserProfileForm(forms.ModelForm):
      firstname = forms.CharField(max_length=60)
-     lastname = forms.CharField(max_length=60)
+
      dob = forms.DateField()
-     gender = forms.CharField(max_length=2)
-     fathername = forms.CharField(max_length=60)
-     permaadd = forms.CharField(max_length=200)
+
      contact = forms.CharField(max_length=11)
      #profilepic=forms.ImageField()
      picture = forms.ImageField()
@@ -29,7 +27,7 @@ class UserProfileForm(forms.ModelForm):
 
      class Meta:
          model=UserProfile
-         fields=('firstname','lastname','dob','gender','fathername','permaadd','contact','picture')
+         fields=('firstname','dob','contact','picture')
 
 
 
@@ -67,3 +65,12 @@ class Quizm(forms.ModelForm):
     c8=forms.CheckboxInput()
     c9=forms.CheckboxInput()
     c10=forms.CheckboxInput()
+
+
+class QuizRegForm(forms.ModelForm):
+    loginid=forms.CharField()
+    passwd=forms.PasswordInput()
+
+    class Meta:
+        model=QuizReg
+        fields=('loginid','passwd')

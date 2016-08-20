@@ -1,18 +1,66 @@
 
  var t=true;
 var st=false;
-var sx=$(document).width();
+var sx=window.innerWidth;
 var left;
+var cs=0;
+var ele=[];
+var winlength =($(window).height())/2-200;//provide the vertical margin to loader.
+var pagelength = $(document).height();  
+var mtitle="Title123"
+var mcontent="Our first message box. Under construction!123 v f nb v c hhh  jvffvvhv hsv ffjvbfjvb bcdjbv djvbdjvb jbvdj  hsv ffjvbfjvb bcdjbv djvbdjvb jbvdj  !";
+
+
+function sliding(mtitle,mcontent){
+    $(".messagebox").slideDown();
+    $(".messagetitle").text(mtitle);
+    $(".messagetext").text(mcontent);
+    $(".closingmessage").slideDown();
+
+}
+function hiding() {
+    $(".messagebox").slideUp();
+    $(".messagetitle").text("");
+    $(".messagetext").text("");
+    $(".closingmessage").slideUp();
+}
+function loading()
+        {
+        $('.loaderfade').css('display','block');
+        $('.loaderfade').css('height',pagelength+'px');
+        $('.border4').animate({opacity:"1"},'slow');
+        }
+function loadingdone()
+        {
+            $('.loaderfade').css('display','none');
+            $('.border4').animate({opacity:"0"},'slow');
+        }
+
+
 if(sx>960) left=300;
 else if(sx>600)left =200;
 else left=0;
+
 $(document).ready(function(){
+
+    //meassage
+        $(".rightt").click(function(){
+            sliding(mtitle,mcontent);
+        });
+        $('.closingmessage').click(function(){
+            hiding();
+        });
     
+    //menu
+     $(".bodym>ul>li>span").click(function(){
+        $(this).toggleClass("minus");
+        $(this).next().slideToggle("slow"); 
+    });
 
     //Image
     
     $(".imghover>img").hover(function(){
-   $(this).next().css("width",""+$(this).width()+"px");
+  $(this).next().css("width",""+$(this).width()+"px");
     $(this).parent().css("width",""+$(this).width()+"px");
    
     $(this).parent().css("box-shadow","0 0 4px black");
@@ -25,7 +73,8 @@ $(document).ready(function(){
          $(this).parent().css("box-shadow","none");
     }); 
     
-
+  //loader
+    
  
 
 
@@ -56,7 +105,13 @@ $(document).ready(function(){
             left: '+='+left+'px',
         width: '-='+left+'px'
         });
-       } t=false;}
+       } 
+          $(".logo1").css({
+               "-webkit-animation": "rotate1 0.5s linear ",
+    "animation": "rotate1 0.5s linear "
+          }); 
+            
+            t=false;}
         else{
             if(left==0){
                 $(this).css({"-ms-transform":"rotate(0deg)","-webkit-transform":"rotate(0deg)","transform":"rotate(0deg)"});
@@ -69,11 +124,15 @@ $(document).ready(function(){
         width: '+='+left+'px'
         });
         }
+             $(".logo1").css({
+               "-webkit-animation": "rotate2 0.5s linear ",
+    "animation": "rotate2 0.5s linear "
+          }); 
           t=true;   
         }
          
 });
-     //Log/in 
+     //Log-in 
      $(".rightt").click(function(){
               if(t){
             if(left==0){
@@ -93,15 +152,15 @@ $(document).ready(function(){
        
 
     //Regestration
-    $('#id_conpassword').keyup(function(){
-   if($('#id_conpassword').val()!=$('#id_password').val()) {
+    $('#rcpwd').keyup(function(){
+   if($('#rcpwd').val()!=$('#rpwd').val()) {   
        $('.rmsg').text("Password do not match!").animate({opacity:'1'}); 
    }else{
         $('.rmsg').text("").animate({opacity:'0'}); 
    }
     });
-     $('#id_password').keyup(function(){
-   if($('#id_conpassword').val()!=$('#id_password').val()) {
+     $('#rpwd').keyup(function(){
+   if($('#rcpwd').val()!=$('#rpwd').val()) {   
        $('.rmsg').text("Password do not match!").animate({opacity:'1'}); 
    }else{
         $('.rmsg').text("").animate({opacity:'0'}); 
@@ -120,57 +179,32 @@ $(document).ready(function(){
             iiu=2;
         }
     });
-     
-    
-    //Slider
-   /* var n=$(".slider>img").length;
-    
-   
-    
-    
-  ele[0]= $(".slider>img:nth-child(1)"); 
-   ele[1]= $(".slider>img:nth-child(2)");
-    ele[2]= $(".slider>img:nth-child(3)");
+    $(".profile>div:nth-child(2)").hover(function(){
+        
+        $(".profile").addClass("tilt1");
+    },function(){
+         $(".profile").removeClass("tilt1");
+        
+    });  $(".profile>div:nth-child(3)").hover(function(){
+        
+        $(".profile").addClass("tilt2");
+    },function(){
+         $(".profile").removeClass("tilt2");
+        
+    });  $(".profile>div:nth-child(4)").hover(function(){
+        
+        $(".profile").addClass("tilt3");
+    },function(){
+         $(".profile").removeClass("tilt3");
+        
+    });  $(".profile>div:nth-child(5)").hover(function(){
+        
+        $(".profile").addClass("tilt4");
+    },function(){
+         $(".profile").removeClass("tilt4");
+        
+    });
+    //for loader
+    $('.border4').css('margin-top',winlength+'px')
 
-    
-    var hei= ele[0].height();
-  hei+=20;
-  var wid=ele[0].width();
-    
-    var ho=true;
-    var i=1;
- setInterval(slider(i++,n,ho,hei),3000);
- 
-    
-  //   ele[1].css({'margin-top':'-'+hei+'px','height':'0','width':''+wid+'px'});
-   //  ele[2].css({'margin-top':'-'+hei+'px','height':''+hei+'px','width':'0'});
-    // ele[1].animate({height:hei});
-    
-  // $(".slider>img:nth-child(2)").css('width','200px');
-    //$(".slider>img:nth-child(3)").css('width','0px');
-    
-
-    */
-    
 });
-
-
-
-/*
-function slider(i,n,ho,hei){
-  ele[1].animate({marginTop:'-'+hei+'px'},'slow');
-     if(ho){
-       if(i%n==0){
-           
-           var j;
-         for(j=1;j<n;j++){
-              ele[i%n].animate({marginTop:'0'},'slow');
-              
-          }
-     }
-          else {ele[i%n].animate({marginTop:'-'+hei+'px'},'slow');
-                 }
-       i++;
-          }
-});
-*/

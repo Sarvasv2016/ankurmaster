@@ -5,12 +5,7 @@ sentdata=django.dispatch.Signal(providing_args=["arg"])
 
 class UserProfile(models.Model):
      firstname = models.CharField(max_length=60,null=True,blank=True)
-
-     lastname = models.CharField(max_length=60 ,null=True,blank=True)
      dob = models.DateField(null=True,blank=True)
-     gender = models.CharField(max_length=2,null=True,blank=True)
-     fathername = models.CharField(max_length=60,null=True,blank=True)
-     permaadd = models.CharField(max_length=200,null=True,blank=True)
      contact = models.CharField(max_length=11,null=True,blank=True)
      college = models.CharField(max_length=120)
      emailid = models.EmailField()
@@ -63,3 +58,15 @@ class Question(models.Model):
     option10Text=models.CharField(max_length=500,blank=True,null=True)
     answerSeq=models.CharField(max_length=10,blank=False,null=False)
 
+class QuizReg(models.Model):
+    loginid=models.CharField(max_length=1000,blank=False,null=False)
+    passwd=models.CharField(max_length=1000,blank=False,null=False)
+
+
+
+class QuizGlobal(models.Model):
+    creator=models.CharField(max_length=1000,blank=False,null=False)
+    quizname=models.CharField(max_length=5000,blank=False,null=False)
+    starttime=models.DateTimeField(blank=True, null=True)
+    endtime=models.DateTimeField(blank=True, null=True)
+    description=models.CharField(max_length= 10000, blank=True, null=True)

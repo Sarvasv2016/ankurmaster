@@ -28,10 +28,10 @@
     <link rel="stylesheet" type="text/css" href="{% static "stylesheets/main.css"%}">
  <!-- Scripts -->
     <script src="{% static "scripts/jquery-2.2.1.min.js"%}" type="text/javascript"></script>
-     <script src="{% static "stylesheets/layout.js"%}" type="text/javascript"></script>
+     <script src="{% static "scripts/layout.js"%}" type="text/javascript"></script>
 
     <script type="text/javascript">
-    var temp=''
+    var temp='';
     $(document).ready(function(){
         function getCookie(c_name) {
         if(document.cookie.length > 0) {
@@ -176,9 +176,19 @@
         }});
         });
 </script>
+    <div class="messagebox"><div class="messagetitle"></div><div class="messagetext"></div>
+</div><div class="closingmessage">«</div>
 </head>
+<body>
+<div class="loaderfade"></div>
+<div class="border4"><div class="border3"></div>
+    <div class="border2"></div>
+    <div class="border1"></div>
+    <img src="{% static "images/s_logo_2.png" %}" class="flags">
+    <img src="{% static "images/s_logo_1.png" %}" class="globe">
+</div>
 
-<body><div class="bodym">
+<div class="bodym">
 <img src="{%  static "images/logobed.png"%}" class="logobed">
     <ul>
         <li><span class="plus">Events</span>
@@ -248,12 +258,8 @@
 <form method="post" id="fform" action="/polls/register/{{request.session.eid}}/{{request.session.otp}}/interests/" enctype="multipart/form-data">
 
            {% csrf_token %}
-            <input type="text" name="firstname" placeholder="First Name"><br>
-            <input type="text" name="lastname" placeholder="Last Name"><br>
+            <input type="text" name="firstname" placeholder="Name"><br>
             <input type="Date" name="dob" min="1900-01-01"> <br>
-            <input type="text" name="gender" placeholder="Gender"><br>
-            <input type="text" name="fathername" placeholder="Father's Name"> <br>
-            <input type="text" name="permaadd" placeholder="Address"><br>
             <input type="number" name="contact" placeholder="Contact Number"><br>
             <input type="file" name="picture"><br><br>
              <br>
@@ -269,7 +275,7 @@
 
     </div>
 
-   </div>
+
 
 {% if registered %}
 
@@ -280,7 +286,7 @@
        <div id="registerform" >
 
            <!--<img src="class="logo2">-->
-            <input type="button" value="register" name="register" id="register" ><br/>
+
 
        </div>
        <div id='emailsent'>
@@ -319,6 +325,36 @@
  </form>
 
 {% endif %}
-<div> </div>
+<div class="mainfooter col-12">
+
+
+        <div class="transbr"></div>
+         <div class="transbl"></div>
+    <p>"Sarvasv is an online platform dhfadsfadhfajkfaba;fhs".</p>
+        <hr size="3px" color="azure">
+    <div class="midfooter">
+        <marquee behavior="alternate" direction="left" width="100%">
+        <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+         <img src="{% static "images/sspon.png"%}" class="sponsors">
+            </marquee>
+
+    </div>
+        <hr size="3px" color="azure">
+    <p class="Poweredby">Powered by: Technex, IIT(BHU)</p>
+       <div class="followus">
+           <img src="{% static "images/fb.png"%}" >
+        <img src="{% static "images/tw.png"%}" >
+           <img src="{% static "images/yt.png"%}" >
+           </div>
+    <p class="block" padding="10%">&#169;Sarvasv2016</p>
+    <div class="tc">
+       <center><a href="terms and conditions.html"><u>Terms and Conditions</u></a></center>
+    </div>
+    </div></div>
 </body>
 </html>
