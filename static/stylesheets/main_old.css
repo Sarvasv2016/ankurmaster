@@ -62,13 +62,7 @@
     margin-left: 260px;
     margin-top: 18px;
     cursor: pointer;
-    transition: background 1s;
-    padding: 4px;
-  
     }
-.arrow:hover{
-    background: black;
-}
 .search{
     margin-left: 50px;
     

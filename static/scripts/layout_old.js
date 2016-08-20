@@ -7,7 +7,34 @@ var cs=0;
 var ele=[];
 var winlength =($(window).height())/2-200;//provide the vertical margin to loader.
 var pagelength = $(document).height();  
+var mtitle="Title123"
+var mcontent="Our first message box. Under construction!123 v f nb v c hhh  jvffvvhv hsv ffjvbfjvb bcdjbv djvbdjvb jbvdj  hsv ffjvbfjvb bcdjbv djvbdjvb jbvdj  !";
 
+
+function sliding(mtitle,mcontent){
+    $(".messagebox").slideDown();
+    $(".messagetitle").text(mtitle);
+    $(".messagetext").text(mcontent);
+    $(".closingmessage").slideDown();
+
+}
+function hiding() {
+    $(".messagebox").slideUp();
+    $(".messagetitle").text("");
+    $(".messagetext").text("");
+    $(".closingmessage").slideUp();
+}
+function loading()
+        {
+        $('.loaderfade').css('display','block');
+        $('.loaderfade').css('height',pagelength+'px');
+        $('.border4').animate({opacity:"1"},'slow');
+        }
+function loadingdone()
+        {
+            $('.loaderfade').css('display','none');
+            $('.border4').animate({opacity:"0"},'slow');
+        }
 
 
 if(sx>960) left=300;
@@ -15,10 +42,13 @@ else if(sx>600)left =200;
 else left=0;
 
 $(document).ready(function(){
+
     //meassage
-       
+        $(".rightt").click(function(){
+            sliding(mtitle,mcontent);
+        });
         $('.closingmessage').click(function(){
-            message("0");
+            hiding();
         });
     
     //menu
@@ -66,11 +96,11 @@ $(document).ready(function(){
       $(".arrow").click(function(){
         if(t){
             if(left==0){
-              //   $(this).css({"-ms-transform":"rotate(180deg)","-webkit-transform":"rotate(180deg)","transform":"rotate(180deg)"});
+                 $(this).css({"-ms-transform":"rotate(180deg)","-webkit-transform":"rotate(180deg)","transform":"rotate(180deg)"});
                 $('.bodyc').css('display','none');
             }
             else{
-  //  $(this).css({"-ms-transform":"rotate(180deg)","-webkit-transform":"rotate(180deg)","transform":"rotate(180deg)"});
+    $(this).css({"-ms-transform":"rotate(180deg)","-webkit-transform":"rotate(180deg)","transform":"rotate(180deg)"});
         $(".bodyc").animate({
             left: '+='+left+'px',
         width: '-='+left+'px'
@@ -175,38 +205,6 @@ $(document).ready(function(){
         
     });
     //for loader
-    $('.border4').css('margin-top',winlength+'px');
-    
- 
-});
- 
+    $('.border4').css('margin-top',winlength+'px')
 
-//loader function
-  function loading(load){ 
-       if(load==1)
-        {
-            $('.loaderfade').css('display','block');
-            $('.loaderfade').css('height',pagelength+'px');
-            $('.border4').animate({opacity:"1"},'slow');
-        }
-        else
-        {
-            $('.loaderfade').css('display','none');
-            $('.border4').animate({opacity:"0"},'slow');
-        }}
-//message box function
-function message(mtitle,mcontent){
-   if(mtitle!="0"){ $(".messagebox").slideDown();
-    $(".messagetitle").text(mtitle);
-    $(".messagetext").text(mcontent);
-    $(".closingmessage").slideDown();
-                   alert(mtitle+","+mcontent);
-}else{
-    $(".messagebox").slideUp();
-    $(".messagetitle").text("");
-    $(".messagetext").text("");
-    $(".closingmessage").slideUp();
-    
-    
-}
-}
+});
