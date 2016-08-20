@@ -3,8 +3,9 @@
 <html>
 {% load static %}
 <head>
-    
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <div class="header">
+
         <img src="{% static "images/head.png"%}" class="head">
 
      </div>
@@ -114,7 +115,7 @@
         <div id ="enter_quiz">You have already registered for the quiz</div>
             {% else %}
 
-            <center><input type="checkbox" class="h_cb">I have read all the instructions and I agree on all terms and conditions.</center>
+            <center><input type="checkbox" class="h_cb"><span id="cbtext">I have read all the instructions and I agree on all terms and conditions.</span></center>
 			<div id ="enter_quiz">Register</div>
 
 
@@ -141,9 +142,19 @@ $(".instructions>a>div").eq(3).removeClass("jbyy");
 	$("#enter_quiz").click(function(){
 
 		if($(".h_cb").prop("checked")){
-			window.open("","_self");
+             $.ajax({url: "",dataType:"json",type :'POST',data:{csrfmiddlewaretoken: '{{ csrftoken }}'}, success: function(json){
+                      if(json.chk==1){
+                       $("#enter_quiz").text("Successfully registered.");
+                         $(".h_cb").css("display","none");
+                          $("#cbtext").css("display","none");
+                      }else{
+                          alert("please try again.");
+                      }
+
+                  }});
+
 			}else{
-				alert("Please ");
+				alert("Please check the terms and conditions.");
 			}
 		});
 
