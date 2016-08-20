@@ -87,98 +87,99 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/polls/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17336152" vertical-offset="5817" max-vertical-offset="17323">
-              <caret line="347" column="32" selection-start-line="347" selection-start-column="32" selection-end-line="347" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="8367" max-vertical-offset="17561">
+              <caret line="384" column="27" selection-start-line="384" selection-start-column="27" selection-end-line="384" selection-end-column="27" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-                <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-                <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-                <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-                <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-                <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-                <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-                <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-                <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-                <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-                <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-                <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-                <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-                <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-                <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-                <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-                <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
+                <marker date="1471731606215" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
+                <marker date="1471731606215" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
+                <marker date="1471731606215" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
+                <marker date="1471731606215" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
+                <marker date="1471731606215" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
+                <marker date="1471731606215" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
+                <marker date="1471731606215" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
+                <marker date="1471731606215" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
+                <marker date="1471731606215" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
+                <marker date="1471731606215" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
+                <marker date="1471731606215" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
+                <marker date="1471731606215" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
+                <marker date="1471731606215" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
+                <marker date="1471731606215" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
+                <marker date="1471731606215" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
+                <marker date="1471731606215" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="15888:15986" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="16716:16770" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="16958:17014" placeholder="SELECT ustar..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="17260:17365" placeholder="SELECT quesn..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="17503:17608" placeholder="SELECT quesn..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="18321:18365" placeholder="SELECT ansse..qltable..." />
+                <marker date="1471731606215" expanded="true" signature="18557:18609" placeholder="Update qltab..." />
+                <marker date="1471731606215" expanded="true" signature="18686:18708" placeholder="SELECT ustar..." />
+                <marker date="1471731606215" expanded="true" signature="18686:18709" placeholder="SELECT ustar..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="18686:18741" placeholder="SELECT ustar..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="18937:18999" placeholder="SELECT endti..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="19848:19907" placeholder="SELECT COUNT..missing_valueactivity..." />
+                <marker date="1471731606215" expanded="true" signature="20031:20129" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="20930:21028" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="22008:22061" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="22168:22211" placeholder="SELECT COUNT..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="22327:22409" placeholder="INSERT INTO ..." />
+                <marker date="1471731606215" expanded="true" signature="22480:22554" placeholder="INSERT INTO ..." />
+                <marker date="1471731606215" expanded="true" signature="22622:22676" placeholder="SELECT email..polls_userprofile..." />
+                <marker date="1471731606215" expanded="true" signature="23264:23317" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="23491:23563" placeholder="SELECT start..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="23831:23913" placeholder="select ustar..missing_valueactivity..." />
+                <marker date="1471731606215" expanded="true" signature="25803:25885" placeholder="select ustar..missing_valueactivity..." />
+                <marker date="1471731606215" expanded="true" signature="28162:28209" placeholder="SELECT creat..quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="28316:28398" placeholder="SELECT ustar..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="29310:29381" placeholder="SELECT uendt..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="29884:29953" placeholder="SELECT ansse..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="30090:30147" placeholder="SELECT ans f..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="30350:30407" placeholder="SELECT ans f..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="30670:30736" placeholder="SELECT mscc,..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="31572:31656" placeholder="select * fro..missing_valueorder..." />
+                <marker date="1471731606215" expanded="true" signature="31758:31812" placeholder="SELECT COUNT..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="32792:32840" placeholder="SELECT passw..polls_quizreg..." />
+                <marker date="1471731606215" expanded="true" signature="33130:33183" placeholder="SELECT quizn..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="33322:33376" placeholder="SELECT COUNT..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="34512:34971" placeholder="CREATE TABLE..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="35016:35263" placeholder="CREATE TABLE..missing_valuelboard..." />
+                <marker date="1471731606215" expanded="true" signature="35308:35461" placeholder="INSERT into ..." />
+                <marker date="1471731606215" expanded="true" signature="37463:37609" placeholder="INSERT INTO ..." />
+                <marker date="1471731606215" expanded="true" signature="38141:38158" placeholder="Select ques ..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="38289:38311" placeholder="Select Count..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="38982:38999" placeholder="Select ques ..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="39130:39152" placeholder="Select Count..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="39831:39878" placeholder="SELECT * fro..polls_quizglobal..." />
+                <marker date="1471731606215" expanded="true" signature="40875:40930" placeholder="Select ques ..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="41069:41176" placeholder="Select opt1,..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="41386:41444" placeholder="Select optio..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="41594:41648" placeholder="Select ans f..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="42604:42654" placeholder="DELETE FROM ..." />
+                <marker date="1471731606215" expanded="true" signature="42715:42736" placeholder="Select Count..." />
+                <marker date="1471731606215" expanded="true" signature="43426:43443" placeholder="Select ques ..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="43558:43580" placeholder="Select Count..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="44447:44594" placeholder="UPDATE polls..." />
+                <marker date="1471731606215" expanded="true" signature="44868:44885" placeholder="Select ques ..missing_value..." />
+                <marker date="1471731606215" expanded="true" signature="45000:45022" placeholder="Select Count..missing_value..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz_first.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quiz_first.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-63.423077" vertical-offset="340" max-vertical-offset="2788">
-              <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
+            <state vertical-scroll-proportion="1.1478261" vertical-offset="1903" max-vertical-offset="3604">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -188,7 +189,7 @@
         <entry file="file://$PROJECT_DIR$/static/scripts/quiz_first.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -268,8 +269,8 @@
         <option value="$PROJECT_DIR$/polls/urls.py" />
         <option value="$USER_HOME$/Desktop/counter.py" />
         <option value="$PROJECT_DIR$/templates/polls/quiz.htm" />
-        <option value="$PROJECT_DIR$/templates/polls/quiz_first.htm" />
         <option value="$PROJECT_DIR$/polls/views.py" />
+        <option value="$PROJECT_DIR$/templates/polls/quiz_first.htm" />
       </list>
     </option>
   </component>
@@ -930,81 +931,82 @@
           <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-            <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-            <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-            <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-            <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-            <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-            <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
+            <marker date="1471731606215" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
+            <marker date="1471731606215" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="15888:15986" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="16716:16770" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="16958:17014" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="17260:17365" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="17503:17608" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18321:18365" placeholder="SELECT ansse..qltable..." />
+            <marker date="1471731606215" expanded="true" signature="18557:18609" placeholder="Update qltab..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18708" placeholder="SELECT ustar..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18709" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18741" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18937:18999" placeholder="SELECT endti..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="19848:19907" placeholder="SELECT COUNT..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="20031:20129" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="20930:21028" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="22008:22061" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="22168:22211" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="22327:22409" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="22480:22554" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="22622:22676" placeholder="SELECT email..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="23264:23317" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="23491:23563" placeholder="SELECT start..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="23831:23913" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="25803:25885" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="28162:28209" placeholder="SELECT creat..quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="28316:28398" placeholder="SELECT ustar..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="29310:29381" placeholder="SELECT uendt..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="29884:29953" placeholder="SELECT ansse..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="30090:30147" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="30350:30407" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="30670:30736" placeholder="SELECT mscc,..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="31572:31656" placeholder="select * fro..missing_valueorder..." />
+            <marker date="1471731606215" expanded="true" signature="31758:31812" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="32792:32840" placeholder="SELECT passw..polls_quizreg..." />
+            <marker date="1471731606215" expanded="true" signature="33130:33183" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="33322:33376" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="34512:34971" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="35016:35263" placeholder="CREATE TABLE..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="35308:35461" placeholder="INSERT into ..." />
+            <marker date="1471731606215" expanded="true" signature="37463:37609" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="38141:38158" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="38289:38311" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="38982:38999" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="39130:39152" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="39831:39878" placeholder="SELECT * fro..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="40875:40930" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41069:41176" placeholder="Select opt1,..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41386:41444" placeholder="Select optio..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41594:41648" placeholder="Select ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="42604:42654" placeholder="DELETE FROM ..." />
+            <marker date="1471731606215" expanded="true" signature="42715:42736" placeholder="Select Count..." />
+            <marker date="1471731606215" expanded="true" signature="43426:43443" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="43558:43580" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="44447:44594" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="44868:44885" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="45000:45022" placeholder="Select Count..missing_value..." />
           </folding>
         </state>
       </provider>
@@ -1305,32 +1307,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/scripts/quiz_first.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-63.423077" vertical-offset="340" max-vertical-offset="2788">
-          <caret line="117" column="48" selection-start-line="117" selection-start-column="48" selection-end-line="117" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923" vertical-offset="1870" max-vertical-offset="3060">
@@ -1347,88 +1323,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scripts/quiz_first.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/polls/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17336152" vertical-offset="5817" max-vertical-offset="17323">
-          <caret line="347" column="32" selection-start-line="347" selection-start-column="32" selection-end-line="347" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="8367" max-vertical-offset="17561">
+          <caret line="384" column="27" selection-start-line="384" selection-start-column="27" selection-end-line="384" selection-end-column="27" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <marker date="1471729932086" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
-            <marker date="1471729932086" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
-            <marker date="1471729932086" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="15944:15998" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="16186:16242" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16488:16593" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="16731:16836" placeholder="SELECT quesn..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17549:17593" placeholder="SELECT ansse..qltable..." />
-            <marker date="1471729932086" expanded="true" signature="17785:17837" placeholder="Update qltab..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17936" placeholder="SELECT ustar..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17937" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="17914:17969" placeholder="SELECT ustar..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="18165:18227" placeholder="SELECT endti..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="19076:19135" placeholder="SELECT COUNT..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="19259:19357" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="20158:20256" placeholder="SELECT descr..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21236:21289" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="21396:21439" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="21555:21637" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21708:21782" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="21850:21904" placeholder="SELECT email..polls_userprofile..." />
-            <marker date="1471729932086" expanded="true" signature="22492:22545" placeholder="SELECT creat..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="22719:22791" placeholder="SELECT start..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="23059:23141" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="25031:25113" placeholder="select ustar..missing_valueactivity..." />
-            <marker date="1471729932086" expanded="true" signature="27390:27437" placeholder="SELECT creat..quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="27544:27626" placeholder="SELECT ustar..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="28538:28609" placeholder="SELECT uendt..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29112:29181" placeholder="SELECT ansse..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="29318:29375" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29578:29635" placeholder="SELECT ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="29898:29964" placeholder="SELECT mscc,..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="30800:30884" placeholder="select * fro..missing_valueorder..." />
-            <marker date="1471729932086" expanded="true" signature="30986:31040" placeholder="SELECT COUNT..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="32020:32068" placeholder="SELECT passw..polls_quizreg..." />
-            <marker date="1471729932086" expanded="true" signature="32358:32411" placeholder="SELECT quizn..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="32550:32604" placeholder="SELECT COUNT..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="33740:34199" placeholder="CREATE TABLE..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="34244:34491" placeholder="CREATE TABLE..missing_valuelboard..." />
-            <marker date="1471729932086" expanded="true" signature="34536:34689" placeholder="INSERT into ..." />
-            <marker date="1471729932086" expanded="true" signature="36691:36837" placeholder="INSERT INTO ..." />
-            <marker date="1471729932086" expanded="true" signature="37369:37386" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="37517:37539" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38210:38227" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="38358:38380" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="39059:39106" placeholder="SELECT * fro..polls_quizglobal..." />
-            <marker date="1471729932086" expanded="true" signature="40103:40158" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40297:40404" placeholder="Select opt1,..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40614:40672" placeholder="Select optio..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="40822:40876" placeholder="Select ans f..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="41832:41882" placeholder="DELETE FROM ..." />
-            <marker date="1471729932086" expanded="true" signature="41943:41964" placeholder="Select Count..." />
-            <marker date="1471729932086" expanded="true" signature="42654:42671" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="42786:42808" placeholder="Select Count..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="43675:43822" placeholder="UPDATE polls..." />
-            <marker date="1471729932086" expanded="true" signature="44096:44113" placeholder="Select ques ..missing_value..." />
-            <marker date="1471729932086" expanded="true" signature="44228:44250" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
+            <marker date="1471731606215" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
+            <marker date="1471731606215" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
+            <marker date="1471731606215" expanded="true" signature="12974:13065" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="14442:14497" placeholder="SELECT COUNT..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="14619:14717" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="15447:15500" placeholder="SELECT statu..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="15685:15761" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="15888:15986" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="16716:16770" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="16958:17014" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="17260:17365" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="17503:17608" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18321:18365" placeholder="SELECT ansse..qltable..." />
+            <marker date="1471731606215" expanded="true" signature="18557:18609" placeholder="Update qltab..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18708" placeholder="SELECT ustar..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18709" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18686:18741" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="18937:18999" placeholder="SELECT endti..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="19848:19907" placeholder="SELECT COUNT..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="20031:20129" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="20930:21028" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="22008:22061" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="22168:22211" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="22327:22409" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="22480:22554" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="22622:22676" placeholder="SELECT email..polls_userprofile..." />
+            <marker date="1471731606215" expanded="true" signature="23264:23317" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="23491:23563" placeholder="SELECT start..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="23831:23913" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="25803:25885" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471731606215" expanded="true" signature="28162:28209" placeholder="SELECT creat..quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="28316:28398" placeholder="SELECT ustar..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="29310:29381" placeholder="SELECT uendt..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="29884:29953" placeholder="SELECT ansse..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="30090:30147" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="30350:30407" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="30670:30736" placeholder="SELECT mscc,..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="31572:31656" placeholder="select * fro..missing_valueorder..." />
+            <marker date="1471731606215" expanded="true" signature="31758:31812" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="32792:32840" placeholder="SELECT passw..polls_quizreg..." />
+            <marker date="1471731606215" expanded="true" signature="33130:33183" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="33322:33376" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="34512:34971" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="35016:35263" placeholder="CREATE TABLE..missing_valuelboard..." />
+            <marker date="1471731606215" expanded="true" signature="35308:35461" placeholder="INSERT into ..." />
+            <marker date="1471731606215" expanded="true" signature="37463:37609" placeholder="INSERT INTO ..." />
+            <marker date="1471731606215" expanded="true" signature="38141:38158" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="38289:38311" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="38982:38999" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="39130:39152" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="39831:39878" placeholder="SELECT * fro..polls_quizglobal..." />
+            <marker date="1471731606215" expanded="true" signature="40875:40930" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41069:41176" placeholder="Select opt1,..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41386:41444" placeholder="Select optio..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="41594:41648" placeholder="Select ans f..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="42604:42654" placeholder="DELETE FROM ..." />
+            <marker date="1471731606215" expanded="true" signature="42715:42736" placeholder="Select Count..." />
+            <marker date="1471731606215" expanded="true" signature="43426:43443" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="43558:43580" placeholder="Select Count..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="44447:44594" placeholder="UPDATE polls..." />
+            <marker date="1471731606215" expanded="true" signature="44868:44885" placeholder="Select ques ..missing_value..." />
+            <marker date="1471731606215" expanded="true" signature="45000:45022" placeholder="Select Count..missing_value..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1478261" vertical-offset="1903" max-vertical-offset="3604">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
