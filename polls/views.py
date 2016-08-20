@@ -372,7 +372,21 @@ def quizgo(request,quizname):
         conn.commit()
         chk=cursor.fetchone()[0]
         if(chk==0):
-            return HttpResponse("Quiz has not yet started")
+            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes from polls_quizglobal where quizname=?''',(quizname,) )
+            conn.commit()
+            data1=cursor.fetchall()
+            data=['']*6
+            for i in range(0,4):
+                data[i]=data1[i][0]
+            desc=data[0]
+            starttime=data[1]
+            endtime=data[2]
+            creator=data[3]
+            marking=data[4]
+            prizes=data[5]
+        #    desc=(cursor.fetchone())[0]
+            flag=1       #don't show register button
+            return render_to_response('polls/quiz_first.htm',{"quizname":quizname, "marking":marking, "prizes":prizes, "username":username,"description":desc,"creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
         cursor.execute('''SELECT creator FROM polls_quizglobal where quizname= ? ''',(quizname,))
         conn.commit()
         chk=cursor.fetchone()[0]
