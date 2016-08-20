@@ -70,6 +70,38 @@ $(document).ready(function(){
         nq+="</div>";
         $(".mc").append(nq);
     }
+
+
+//ans append codes
+  var qapat={{ ansseq }}.split("|");
+
+    var ui=0;
+
+for(var i=0;i<nqs;i++)
+    {
+        for(var j=1;j<=10;j++){var chk=0;
+            if(qapat[i][j-1]=="1"){$(".sc").children().eq(i+1).children().eq(j).addClass("selop");
+        $(".sc").children().eq(i+1).children().eq(j).css("background","white");chk=1;}
+        if(chk==1)qa++;}ui++;}
+     for(var i=0;i<nqm;i++)
+    {var chk=0;
+        for(var j=1;j<=10;j++){
+            if(qapat[ui][j-1]=="1"){$(".mc").children().eq(i+1).children().eq(j).addClass("selop");
+        $(".mc").children().eq(i+1).children().eq(j).css("background","white");chk=1;}if(chk==1)qa++;}ui++;}
+
+
+            var qast="Question Attempted: "+qa;
+           var qust="Question Unattempted: "+(tq-qa);
+
+         $(".score_board>div:nth-child(2)").text(qast);
+        $(".score_board>div:nth-child(3)").text(qust);
+        var pbp=(qa/tq*100)+"%";
+        $(".score_board_progress>div").animate({width:pbp});
+
+//ans append codes end
+
+
+
     $(".sc>div>div").click(function(){
 
 
@@ -158,7 +190,8 @@ $(this).addClass("selop");
         }
     });
 
-      var sec=90;
+      var sec={{ tleft }};
+
    setInterval(function(){
 
       var s=sec--;

@@ -17,12 +17,13 @@ urlpatterns = [
  url(r'^register/(?P<eid>.+)/(?P<otp>\d+)/interests/$',views.register2),
  url(r'^register/(?P<eid>.+)/(?P<otp>\d+)/interests/dashboard/$',views.register3),
  url(r'^register/QuizReg/$',views.QuizReg),
- url(r'register/QuizReg/EditOrCreate/$',views.EditOrCreate),
- url(r'register/QuizReg/EditOrCreate1/CreateQuiz/$',views.CreateQuiz),
- url(r'events/selquiz/desc/(?P<quizname>.+)/$',views.RegCheck),
- url(r'events/selquiz/desc/register/(?P<quizname>.+)/$',views.UserQuizReg),
- url(r'events/selquiz/quiz/QuizPlay/(?P<quizname>.+)/$',views.QuizPlay),
- url(r'events/selquiz/quiz/(?P<quizname>.+)/$',views.quizgo),
- url(r'register/QuizReg/EditOrCreate/ChangeDate/$',views.ChangeDate)
-
+ url(r'^register/QuizReg/EditOrCreate/$',views.EditOrCreate),
+ url(r'^register/QuizReg/EditOrCreate1/CreateQuiz/$',views.CreateQuiz),
+ url(r'^events/selquiz/desc/(?P<quizname>.+)/$',views.RegCheck),
+ url(r'^events/selquiz/desc/register/(?P<quizname>.+)/$',views.UserQuizReg),
+ url(r'^events/selquiz/quiz/QuizPlay/Score/(?P<quizname>.+)/$',views.QuizPlay),
+ url(r'^events/selquiz/quiz/QuizPlay/(?P<quizname>.+)/$',views.QuizPlay),
+ url(r'^events/selquiz/quiz/(?P<quizname>.+)/$',views.quizgo),
+ url(r'^QuizReg/EditOrCreate/editdetails/$',views.ChangeDate),
+ url(r'^QuizReg/EditOrCreate/editques/(?P<quizname>.+)/$',views.editref)
 ]
