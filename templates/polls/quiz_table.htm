@@ -30,11 +30,17 @@
     <script src="{%static "scripts/jquery-2.2.1.min.js"%}" type="text/javascript"></script>
      <script src="{%static "scripts/layout.js"%}" type="text/javascript"></script>
     <script type="text/javascript">
-        var twodarray={{ twodarray }}//[["dsd","gfgf","fgddf","fgfdgr"],["dsd","gfgf","fgddf","fgfdgr"]];
-        for(var i=0;i<twodarray.length;i++)
-        {
-            $(".quiz_table").append(" <tr><td>"+(i+1)+"</td><td>"+twodarray[i][0]+"</td> <td>"+twodarray[i][1]+"</td> <td>"+twodarray[i][2]+"</td></tr>");
-        }
+$(document).ready(function() {
+    var usernm ={{ usernm|safe }};
+    var points ={{ points|safe }};
+    var duration ={{ duration|safe }};
+
+    for (var i = 0; i < usernm.length; i++) {
+        $(".quiz_table").append(" <tr><td>" + (i + 1) + "</td><td>" + usernm[i] + "</td> <td>" + duration[i] + "</td> <td>" + points[i] + "</td></tr>");
+    }
+
+});
+
     </script>
      
   
@@ -84,10 +90,10 @@
         <h1>Quiz Log</h1>
         <div class="quizlogs">
             <span><span>  UserName  </span>   <span> {{ username }}  </span></span>
-             <span>  <span> Question attempted/ Total Questions </span>   <span> {{ attques }}/{{ totques }}  </span></span>
+             <span>  <span> Questions (attempted/ Total) </span>   <span> {{ attques }}/{{ totques }}  </span></span>
               <span> <span>  Time Spent   </span><span>   {{ dur }}  </span></span>
              <span>  <span>  Score </span>   <span>   {{ score }}/{{ maxmarks }}  </span></span>
-             <span>  <span>  Rank </span>  <span> Obvious </span></span>
+             <span>  <span>  Rank </span>  <span> {{ rank }} </span></span>
             
         </div>
         <h1>Quiz Leaderboard</h1>
@@ -104,7 +110,7 @@
         </table>
 
         
-     
+      <br><br><br><br><br><br><br><br>
          <!-- End Main page content-->
    <div class="row"> <div class="mainfooter col-12">
 

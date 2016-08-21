@@ -299,7 +299,7 @@ def selquiz(request):
 
         totalarr=cursor.fetchall()
         lim1=len(totalarr)
-        print(totalarr[0][2])
+
         print("njkjb"+str(lim1))
         quizname1=['']*lim1
         enddate=['']*lim1
@@ -341,27 +341,28 @@ def quizgo(request,quizname):
         cur="'"+str(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y"))+"'"
         cur1=(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y"))
         cur2=str(cur1).split()
-        cur3="'"+str(cur2[0])+"T"+str(cur2[0])+"'"
+        cur3=str(cur2[0])+"T"+str(cur2[1])
         utable=str(username)+"activity"
         cursor.execute('''SELECT COUNT(*) FROM '''+utable+''' where quizname =  ?''',(quizname,))
         conn.commit()
         chk=cursor.fetchone()[0]
         if(chk==0):
-            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes from polls_quizglobal where quizname=?''',(quizname,) )
+            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes,duration from polls_quizglobal where quizname=?''',(quizname,) )
             conn.commit()
             data1=cursor.fetchall()
-            data=['']*6
-            for i in range(0,6):
-                data[i]=data1[i][0]
+            data=['']*7
+            for i in range(0,7):
+                data[i]=data1[0][i]
             desc=data[0]
             starttime=data[1]
             endtime=data[2]
             creator=data[3]
             marking=data[4]
             prizes=data[5]
+            duration=data[6]
         #   desc=(cursor.fetchone())[0]
             flag=0   ##show register button in form
-            return render_to_response('polls/quiz_first.htm',{"quizname":quizname, "marking":marking, "prizes":prizes, "description":desc,"username":username, "creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
+            return render_to_response('polls/quiz_first.htm',{"quizname":quizname,'duration':duration, "marking":marking, "prizes":prizes, "description":desc,"username":username, "creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
 
         cursor.execute('''SELECT status FROM '''+utable+''' where quizname =  ?''',(quizname,))
         conn.commit()
@@ -372,21 +373,22 @@ def quizgo(request,quizname):
         conn.commit()
         chk=cursor.fetchone()[0]
         if(chk==0):
-            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes from polls_quizglobal where quizname=?''',(quizname,) )
+            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes,duration from polls_quizglobal where quizname=?''',(quizname,) )
             conn.commit()
             data1=cursor.fetchall()
-            data=['']*6
-            for i in range(0,4):
-                data[i]=data1[i][0]
+            data=['']*7
+            for i in range(0,7):
+                data[i]=data1[0][i]
             desc=data[0]
             starttime=data[1]
             endtime=data[2]
             creator=data[3]
             marking=data[4]
             prizes=data[5]
+            duration=data[6]
         #    desc=(cursor.fetchone())[0]
             flag=1       #don't show register button
-            return render_to_response('polls/quiz_first.htm',{"quizname":quizname, "marking":marking, "prizes":prizes, "username":username,"description":desc,"creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
+            return render_to_response('polls/quiz_first.htm',{"quizname":quizname,'duration':duration, "marking":marking, "prizes":prizes, "username":username,"description":desc,"creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
         cursor.execute('''SELECT creator FROM polls_quizglobal where quizname= ? ''',(quizname,))
         conn.commit()
         chk=cursor.fetchone()[0]
@@ -394,9 +396,10 @@ def quizgo(request,quizname):
         qltable="'"+quizname+str(chk)+"lboard'"
         cursor.execute('''SELECT ustarttime FROM '''+qltable+''' where username= ?''',(username,))
         conn.commit()
-        ustarttime=str(cursor.fetchone()[0])
-        if(ustarttime==""):
+        ustarttime=cursor.fetchone()[0]
+        if(ustarttime==None):
             cursor.execute('''UPDATE '''+qltable+''' set ustarttime=? where username=?''',(cur3,username,))
+            conn.commit()
         cursor.execute('''SELECT quesno,ques,opt1,opt2,opt3,opt4,opt5,opt6,opt7,opt8,opt9,opt10 FROM '''+qtable+''' where qtype = ? ''',("Single Correct",))
         conn.commit()
         quizarrs=cursor.fetchall()
@@ -422,25 +425,25 @@ def quizgo(request,quizname):
                 quizarrm1.append([])
         #quizarr1=[[""]*12]*nques
         #quizarr11=[[""]*12]*nques
-        cursor.execute('''SELECT  ansseq from qltable where username=? ''',(username,))
+        cursor.execute('''SELECT  ansseq from '''+qltable+''' where username=? ''',(username,))
         conn.commit()
         nq=nsques+nmques
         ansseq=cursor.fetchone()[0]
-        if (ansseq==""):
+        if (ansseq==None):
             ansseq="0000000000|"*nq
-            cursor.execute('''Update '''+qltable+''' set ansseq=? where username=? ''',(ansseq,username,))
+            cursor.execute('''Update '''+qltable+''' set ansseq=? where username=? ''',(ansseq,username))
             conn.commit()
         cursor.execute('''SELECT ustarttime from '''+qltable+''' where username=?''',(username,))
         conn.commit()
-        ust="'"+str(cursor.fetchone()[0])+"'"
+        ust=str(cursor.fetchone()[0])
 
         deltime=(cur1-datetime.datetime.strptime(ust, "%Y-%m-%dT%H:%M:%S")).seconds
         cursor.execute('''SELECT endtime,duration from polls_quizglobal where quizname=?''',(quizname,))
         conn.commit()
         tdata=cursor.fetchone()
         timme=(tdata[1]*60)-deltime
-        qet="'"+str(tdata[0])+"'"
-        deltime2=(datetime.datetime.strptime(ust, "%Y-%m-%dT%H:%M:%S")-cur1).seconds
+        qet=str(tdata[0])
+        deltime2=(datetime.datetime.strptime(qet, "%Y-%m-%dT%H:%M:%S")-cur1).seconds
         if(timme>deltime2):
             timme=deltime2
 
@@ -454,43 +457,46 @@ def quizgo(request,quizname):
 def RegCheck(request,quizname):
     if(request.session.has_key('uid')):
         uname=request.session.get('uid')
+        print("uname="+str(uname))
         conn=sqlite3.connect('db.sqlite3')
         cursor=conn.cursor()
         cursor.execute('''SELECT COUNT(*) FROM '''+uname+'''activity where quizname=?''',(quizname,))
         conn.commit()
         cnt=(cursor.fetchone())[0]
         if(cnt==1):
-            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes from polls_quizglobal where quizname=?''',(quizname,) )
+            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes,duration from polls_quizglobal where quizname=?''',(quizname,) )
             conn.commit()
             data1=cursor.fetchall()
-            data=['']*6
-            for i in range(0,4):
-                data[i]=data1[i][0]
+            data=['']*7
+            for i in range(0,7):
+                data[i]=data1[0][i]
             desc=data[0]
             starttime=data[1]
             endtime=data[2]
             creator=data[3]
             marking=data[4]
             prizes=data[5]
+            duration=data[6]
         #    desc=(cursor.fetchone())[0]
             flag=1       #don't show register button
-            return render_to_response('polls/quiz_first.htm',{"quizname":quizname, "marking":marking, "prizes":prizes, "username":uname,"description":desc,"creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
+            return render_to_response('polls/quiz_first.htm',{"quizname":quizname,'duration':duration, "marking":marking, "prizes":prizes, "username":uname,"description":desc,"creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
         else:   ##render the user quiz registration page,not made yet
-            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes from polls_quizglobal where quizname=?''',(quizname,) )
+            cursor.execute('''SELECT description,starttime,endtime,creator,marking,prizes,duration from polls_quizglobal where quizname=?''',(quizname,) )
             conn.commit()
             data1=cursor.fetchall()
-            data=['']*6
-            for i in range(0,6):
-                data[i]=data1[i][0]
+            data=['']*7
+            for i in range(0,7):
+                data[i]=data1[0][i]
             desc=data[0]
             starttime=data[1]
             endtime=data[2]
             creator=data[3]
             marking=data[4]
             prizes=data[5]
+            duration=data[6]
         #   desc=(cursor.fetchone())[0]
             flag=0   ##show register button in form
-            return render_to_response('polls/quiz_first.htm',{"quizname":quizname, "marking":marking, "prizes":prizes, "description":desc,"username":uname, "creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
+            return render_to_response('polls/quiz_first.htm',{"quizname":quizname,'duration':duration, "marking":marking, "prizes":prizes, "description":desc,"username":uname, "creator":creator,"starttime":starttime,"endtime":endtime,"flag":flag},context_instance=RequestContext(request))
     else:
         return HttpResponse('You are not logged in.')
 
@@ -499,50 +505,64 @@ def UserQuizReg(request,quizname):
         usernm=request.session.get('uid')
         conn=sqlite3.connect('db.sqlite3')
         cursor=conn.cursor()
-        cursor.execute('''SELECT creator from polls_quizglobal where quizname=?''',(quizname,))
+        cursor.execute('''SELECT creator, starttime from polls_quizglobal where quizname=?''',(quizname,))
         conn.commit()
-        quizmaster=(cursor.fetchone())[0]
-        cursor.execute('''SELECT COUNT(*) FROM '''+quizname+'''lboard''' )
+        tdata=cursor.fetchone()
+        quizmaster=tdata[0]
+        qstime=str(tdata[1])
+        cursor.execute('''SELECT COUNT(*) FROM '''+quizname+quizmaster+'''lboard''' )
         conn.commit()
         serial=(cursor.fetchone())[0]
         serial=serial+1
-        cursor.execute('''INSERT INTO '''+quizname+quizmaster+'''lboard (sno,username,points) values=(?,?,?)''',(serial,usernm,0))
+        cursor.execute('''INSERT INTO '''+quizname+quizmaster+'''lboard (sno,username,points) values(?,?,?)''',(serial,usernm,0))
         conn.commit()
-        cursor.execute('''INSERT INTO '''+usernm+'''activity (quizname,status,points) values=(?,?,?)''',(quizname,0,0))
+        cursor.execute('''INSERT INTO '''+usernm+'''activity (quizname,status,points) values(?,?,?)''',(quizname,0,0))
         conn.commit()
         cursor.execute('''SELECT emailid from polls_userprofile where username=?''',(usernm,))
         conn.commit()
         eid=(cursor.fetchone())[0]
         ####threading starts here
      #   Text='You have registered successfully for the quiz '+quizname
-        thread1 = myThread1(eid,quizname)
-        thread1.start()
-        dict={"open":1}
+        #thread1 = myThread1(eid,quizname)
+        #thread1.start()
+        cur1=(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y"))
+        qstime1=datetime.datetime.strptime(qstime, "%Y-%m-%dT%H:%M:%S")
+        if(cur1<=qstime1):
+            dict={"chk":1}
+        else:
+            dict={"chk":2}
         return HttpResponse(json.dumps(dict), content_type='application/javascript')
     else:
         return HttpResponse('you are not logged in.')
 
 def QuizPlay(request,quizname):
     if(request.session.has_key('uid')):
+        print("knight"+str(request.POST.get('ans')))
         conn=sqlite3.connect('db.sqlite3')
         cursor=conn.cursor()
         cursor.execute('''SELECT creator from polls_quizglobal where quizname=?''',(quizname,))
         conn.commit()
         quizmaster=(cursor.fetchone())[0]
         if(not request.session.has_key(quizname+'starttime')):
+            print("check1")
             cursor.execute('''SELECT starttime,endtime,duration FROM polls_quizglobal where quizname=?''',(quizname,))
             conn.commit()
-            starttime=str((cursor.fetchall())[0][0])
-            endtime=str((cursor.fetchall())[0][1])
-            duration=int((cursor.fetchall())[0][2])
+            data=cursor.fetchall()
+            print(data[0][1])
+            starttime=str(data[0][0])
+            endtime=str(data[0][1])
+            duration=int(data[0][2])
             duration=duration*1.0/1440
-            cursor.execute('''select ustarttime from '''+request.session.get('uid')+'''activity where quizname=?''',(quizname))
+            print(quizname+quizmaster)
+            cursor.execute('''select ustarttime from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid'),))
+            conn.commit()
             ustarttime=str((cursor.fetchone())[0])
-            if(datetime.datetime.strptime(ustarttime, "%a %b %d %H:%M:%S %Y")+datetime.timedelta(duration)<=datetime.datetime.strptime(endtime, "%a %b %d %H:%M:%S %Y")):
-                    tmpuendtime=str(datetime.datetime.strptime(ustarttime, "%a %b %d %H:%M:%S %Y")+datetime.timedelta(duration))
+            if(datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S")+datetime.timedelta(duration)<=datetime.datetime.strptime(endtime, "%Y-%m-%dT%H:%M:%S")):
+                    tmpuendtime=str(datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S")+datetime.timedelta(duration))
             else:
-                    tmpuendtime=str(datetime.datetime.strptime(endtime, "%a %b %d %H:%M:%S %Y"))
-            if(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")> datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S") and datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")< datetime.datetime.strptime(tmpuendtime, "%Y-%m-%dT%H:%M:%S")):
+                    tmpuendtime=str(datetime.datetime.strptime(endtime, "%Y-%m-%dT%H:%M:%S"))
+            print(tmpuendtime+" abc")
+            if(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")> datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S") and datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")< datetime.datetime.strptime(tmpuendtime, "%Y-%m-%d %H:%M:%S")):
                     request.session[quizname+'starttime']=starttime
                     request.session[quizname+'duration']=duration
                     request.session[quizname+'endtime']=endtime
@@ -560,13 +580,15 @@ def QuizPlay(request,quizname):
                     response_dict.update({'response':'redirect'})
                     return HttpResponse(json.dumps(response_dict),content_type='application/javascript')
         else:
-            cursor.execute('''select ustarttime from '''+request.session.get('uid')+'''activity where quizname=?''',(quizname))
+            cursor.execute('''select ustarttime from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid'),))
             ustarttime=str((cursor.fetchone())[0])
             starttime=request.session.get(quizname+'starttime')
             endtime=request.session.get(quizname+'endtime')
             duration=request.session.get(quizname+'endtime')
             tmpuendtime=request.session.get(quizname+'tmpuendtime')
-            if(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")> datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S") and datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")< datetime.datetime.strptime(tmpuendtime, "%Y-%m-%dT%H:%M:%S")):
+            print(tmpuendtime+" ad")
+            print(ustarttime+"qui")
+            if(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")> datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S") and datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")< datetime.datetime.strptime(tmpuendtime, "%Y-%m-%d %H:%M:%S")):
                 answer=request.POST.get('ans')
                 conn=sqlite3.connect('db.sqlite3')
                 cursor=conn.cursor()
@@ -601,13 +623,14 @@ def Score(request,quizname):
         uname=request.session.get('uid')
         conn=sqlite3.connect('db.sqlite3')
         cursor=conn.cursor()
-        cursor.execute('''SELECT creator FROM quizglobal where quizname=?''',(quizname,))
+        cursor.execute('''SELECT creator FROM polls_quizglobal where quizname=?''',(quizname,))
         conn.commit()
         quizmaster=(cursor.fetchone())[0]
         cursor.execute('''SELECT ustarttime,uendtime from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid'),))
         conn.commit()
-        ustarttime="'"+str((cursor.fetchone())[0][0])+"'"
-        uendtime1=(cursor.fetchone())[0][1]
+        data=cursor.fetchall()
+        ustarttime=str(data[0][0])
+        uendtime1=data[0][1]
     #    if(uendtime!=request.session.get(quizname+'endtime')):        ###############
     #    uendtime=(datetime.now()).isoformat()
    #     cursor.execute('''select endtime from polls_quizglobal where quizname=?''',(quizname))
@@ -615,19 +638,26 @@ def Score(request,quizname):
    #     qendtime=cursor.fetchone()[0]
     #    if(qendtime<=uendtime):
      #       uendtime=qendtime
-        if(uendtime1==''):
-            cursor.execute('''UPDATE '''+quizname+quizmaster+'''lboard set uendtime=? where username=?''',(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y")))
+        print("btaaaa")
+        print(uendtime1)
+        print('chl')
+        if(uendtime1==None):
+            print('inside')
+            cursor.execute('''UPDATE '''+quizname+quizmaster+'''lboard set uendtime=? where username=?''',(datetime.datetime.strptime(time.ctime(), "%a %b %d %H:%M:%S %Y"),request.session.get('uid')))
       #  cursor.execute('''INSERT INTO '''+quizname+quizmaster+'''lboard set uendtime=? where username=?''',(uendtime,request.session.get('uid')))
        # conn.commit()
-        cursor.execute('''SELECT uendtime from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid')))
+        print('outside')
+        cursor.execute('''SELECT uendtime from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid'),))
         conn.commit()
-        uendtime="'"+str(cursor.fetchone()[0])+"'"
-        uendtime2=datetime.datetime.strptime(uendtime, "%a %b %d %H:%M:%S %Y")
-        ustarttime2=datetime.datetime.strptime(ustarttime, "%%Y-%m-%dT%H:%M:%S")
+        uendtime=str(cursor.fetchone()[0])
+        uendtime2=datetime.datetime.strptime(uendtime,"%Y-%m-%d %H:%M:%S")
+        ustarttime2=datetime.datetime.strptime(ustarttime, "%Y-%m-%dT%H:%M:%S")
         dur=uendtime2-ustarttime2
-        cursor.execute('''Update '''+quizname+quizmaster+'''lboard set duration=? where username=?''',(uendtime2-ustarttime2,request.session.get('uid')))
+        print("time")
+        print(dur)
+        cursor.execute('''Update '''+quizname+quizmaster+'''lboard set duration=? where username=?''',(dur.seconds,request.session.get('uid'))) #######check for format
         conn.commit()
-        cursor.execute('''SELECT ansseq from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid')))
+        cursor.execute('''SELECT ansseq from '''+quizname+quizmaster+'''lboard where username=?''',(request.session.get('uid'),))
         conn.commit()
         uansseq=(cursor.fetchone())[0]
         str1=''
@@ -669,9 +699,13 @@ def Score(request,quizname):
         totques=row+row1
         cursor.execute('''Update '''+quizname+quizmaster+'''lboard set points=? where username=?''',(score,request.session.get('uid')))
         conn.commit()
-        cursor.execute('''select * from '''+quizname+quizmaster+'''order by points desc,order by duration desc''')      #####
+        cursor.execute('''select username,points,duration from '''+quizname+quizmaster+'''lboard order by points desc,duration''')      #####
         conn.commit()
         leaderdata1=cursor.fetchall()
+        print("ghjhk")
+        print(leaderdata1[0][0])
+        print(leaderdata1[0][1])
+        print(leaderdata1[0][2])
         cursor.execute('''SELECT COUNT(*) FROM '''+quizname+quizmaster+'''lboard''')
         conn.commit()
         size1=(cursor.fetchone())[0]
@@ -679,13 +713,17 @@ def Score(request,quizname):
         points=['']*size1
         duration=['']*size1
         for i in range(0,size1):
-            usernm[i]=leaderdata1[i][1]
-            points[i]=leaderdata1[i][2]
-            duration[i]=leaderdata1[i][5]
+            usernm[i]=leaderdata1[i][0]
+            points[i]=leaderdata1[i][1]
+            duration[i]=leaderdata1[i][2]
+        print(usernm)
+        print("ghj")
+        print(points)
+        print(duration)
         cursor.execute('''UPDATE '''+request.session.get('uid')+'''activity set status=? where quizname=?''',(1,quizname))
         conn.commit()
-        twodarray=[usernm,points,duration]
-        return render_to_response("polls/quiz_table.htm",{ 'twodarray':twodarray,'username':uname, 'attques':attques,'totques':totques, 'dur':dur,'score':score,'maxmarks':maxmarks},context_instance=RequestContext(request))
+      ##  twodarray=[usernm,points,duration]
+        return render_to_response("polls/quiz_table.htm",{ 'usernm':usernm,'points':points,'duration':duration,'username':uname, 'attques':attques,'totques':totques, 'dur':dur,'score':score,'maxmarks':maxmarks},context_instance=RequestContext(request))
 
     else:
         return HttpResponse('you are not logged in.')
@@ -776,8 +814,9 @@ def CreateQuiz(request):
     #cursor.execute('''SELECT time(endtime),time(starttime) from polls_quizglobal where quizname= ?''',(quiztablename,))
     #conn.commit()
     #wer=((cursor.fetchall()[0]))
-
-    return render_to_response("polls/quizm.htm",{'quizname':quizname},context_instance=RequestContext(request))
+    qarray=[]
+    up=0
+    return render_to_response("polls/quizm.htm",{'quizname':quizname ,'qarray': qarray, 'up':up},context_instance=RequestContext(request))
 
 def quizuptab(request,quizname):
     if(request.method=='POST'):
@@ -846,11 +885,14 @@ def quizuptab(request,quizname):
         conn.commit()
         up=cursor.fetchone()
         i=[0]*up[0]
-        arrayq=[""]*(up[0]+1)
+        arrayq=[""]*(up[0])
         print(up[0])
         for k in range(0,up[0]):
             arrayq[k]=qarray[k][0]
             i[k]=k
+        if(up[0]==0):
+            arrayq=[]
+
         return render_to_response('polls/quizm.htm',{"qarray":arrayq,"quizname":quizname,"limits":i,"up":up[0]},context_instance=RequestContext(request))
         #return HttpResponse("Baad diya")
 
@@ -873,6 +915,8 @@ def quizuptab(request,quizname):
         for k in range(0,up[0]):
             arrayq[k]=qarray[k][0]
             i[k]=k
+        if(up[0]==0):
+            arrayq=[]
         #print(arrayq[1][0])
         return render_to_response('polls/quizm.htm',{"qarray":arrayq,"quizname":quizname,"limits":i,"up":up[0]},context_instance=RequestContext(request))
         #return render_to_response('polls/quizm.htm',context_instance=RequestContext(request))

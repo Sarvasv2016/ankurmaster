@@ -92,9 +92,9 @@
 	
     	
 		<div class="qzt">{{ quizname }}</div>
-       <center> <span class="qtime">from:{{ starttime }}</span>
-        <span class="qtime">to:{{ endtime }}</span>
-         <span class="qtime">for:{{ duration }}</span></center>
+       <center> <span class="qtime">From : {{ starttime }}</span>
+        <span class="qtime">To : {{ endtime }}</span>
+         <span class="qtime">Duration : {{ duration }} minutes</span></center>
 		<div class="instructions">
 			<a><div class="i1 jbyy"> Description</div></a>
 			<a href="#fk1"><div class="i2">Marking Scheme</div></a>
@@ -112,7 +112,7 @@
 		<div id="prizes"><span>Prizes</span><br>
 			<p>{{ prizes }}</p></div>
 		{% if flag %}
-        <div id ="enter_quiz">You have already registered for the quiz</div>
+        <div id ="enter_quiz1">You have already registered for the quiz</div>
             {% else %}
 
             <center><input type="checkbox" class="h_cb"><span id="cbtext">I have read all the instructions and I agree on all terms and conditions.</span></center>
@@ -124,6 +124,26 @@
     <script type="text/javascript">
 
 $(document).ready(function(){
+    function getCookie(c_name) {
+        if(document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
+            if(c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                c_end = document.cookie.indexOf(";", c_start);
+                if(c_end == -1) c_end = document.cookie.length;
+                return unescape(document.cookie.substring(c_start,c_end));
+            }
+        }
+        return "";
+    }
+
+       $(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": getCookie("csrftoken")
+            }
+        });
+           });
 
 	$(".instructions>a>div").click(function(){
 
@@ -142,12 +162,18 @@ $(".instructions>a>div").eq(3).removeClass("jbyy");
 	$("#enter_quiz").click(function(){
 
 		if($(".h_cb").prop("checked")){
-             $.ajax({url: "",dataType:"json",type :'POST',data:{csrfmiddlewaretoken: '{{ csrftoken }}'}, success: function(json){
+             $.ajax({url: "/polls/events/selquiz/desc/register/{{ quizname }}/",dataType:"json",type :'POST',data:{csrfmiddlewaretoken: '{{ csrftoken }}'}, success: function(json){
                       if(json.chk==1){
                        $("#enter_quiz").text("Successfully registered.");
                          $(".h_cb").css("display","none");
                           $("#cbtext").css("display","none");
-                      }else{
+                          $(this).attr("id","enter_quiz1");
+
+                      }
+                      else if(json.chk==2){
+                          window.open("/polls/events/selquiz/quiz/{{ quizname }}/","_self");
+                      }
+                      else{
                           alert("please try again.");
                       }
 

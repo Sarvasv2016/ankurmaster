@@ -14,9 +14,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/untitled$file26.coverage" NAME="file26 Coverage Results" MODIFIED="1471126831744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/" />
-    <SUITE FILE_PATH="coverage/untitled$counter.coverage" NAME="counter Coverage Results" MODIFIED="1471726767568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
     <SUITE FILE_PATH="coverage/untitled$views.coverage" NAME="views Coverage Results" MODIFIED="1459529978684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polls" />
+    <SUITE FILE_PATH="coverage/untitled$counter.coverage" NAME="counter Coverage Results" MODIFIED="1471726767568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop" />
+    <SUITE FILE_PATH="coverage/untitled$file26.coverage" NAME="file26 Coverage Results" MODIFIED="1471126831744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="H:/" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -48,18 +48,28 @@
       <file leaf-file-name="verma.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/verma.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4199">
-              <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+            <state vertical-scroll-proportion="-10.461538" vertical-offset="1462" max-vertical-offset="4199">
+              <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quiz_table.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="quiz_table.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/polls/quiz_table.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="2533">
-              <caret line="35" column="138" selection-start-line="35" selection-start-column="138" selection-end-line="35" selection-end-column="138" />
+            <state vertical-scroll-proportion="0.6465324" vertical-offset="0" max-vertical-offset="2635">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quiz_table.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/stylesheets/quiz_table.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1037">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,18 +78,8 @@
       <file leaf-file-name="select_quiz.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="3060">
-              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.htm" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/polls/template.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2244">
-              <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="1972" max-vertical-offset="3060">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -88,19 +88,110 @@
       <file leaf-file-name="userprofileform.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/userprofileform.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="510">
+            <state vertical-scroll-proportion="-5.3076925" vertical-offset="49" max-vertical-offset="510">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ext.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/ext.html">
+      <file leaf-file-name="quiz_first.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.4615383" vertical-offset="1915" max-vertical-offset="4233">
+              <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.423077" vertical-offset="11716" max-vertical-offset="18309">
+              <caret line="725" column="110" selection-start-line="725" selection-start-column="110" selection-end-line="725" selection-end-column="110" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+                <marker date="1471784865058" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
+                <marker date="1471784865058" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
+                <marker date="1471784865058" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
+                <marker date="1471784865058" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
+                <marker date="1471784865058" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
+                <marker date="1471784865058" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
+                <marker date="1471784865058" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
+                <marker date="1471784865058" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
+                <marker date="1471784865058" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
+                <marker date="1471784865058" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
+                <marker date="1471784865058" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
+                <marker date="1471784865058" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
+                <marker date="1471784865058" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
+                <marker date="1471784865058" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
+                <marker date="1471784865058" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
+                <marker date="1471784865058" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
+                <marker date="1471784865058" expanded="true" signature="12945:13036" placeholder="SELECT quizn..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="14405:14460" placeholder="SELECT COUNT..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="14582:14689" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="15468:15521" placeholder="SELECT statu..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="15706:15782" placeholder="SELECT COUNT..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="15909:16016" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="16795:16849" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="17037:17093" placeholder="SELECT ustar..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="17362:17467" placeholder="SELECT quesn..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="17605:17710" placeholder="SELECT quesn..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="18423:18442" placeholder="SELECT ansse..." />
+                <marker date="1471784865058" expanded="true" signature="18423:18443" placeholder="SELECT ansse..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="18423:18475" placeholder="SELECT ansse..qltable..." />
+                <marker date="1471784865058" expanded="true" signature="18797:18852" placeholder="SELECT ustar..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="19040:19102" placeholder="SELECT endti..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="19978:20037" placeholder="SELECT COUNT..missing_valueactivity..." />
+                <marker date="1471784865058" expanded="true" signature="20161:20268" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="21118:21225" placeholder="SELECT descr..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="22254:22318" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="22472:22493" placeholder="SELECT COUNT..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="22472:22526" placeholder="SELECT COUNT..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="22642:22723" placeholder="INSERT INTO ..." />
+                <marker date="1471784865058" expanded="true" signature="22794:22867" placeholder="INSERT INTO ..." />
+                <marker date="1471784865058" expanded="true" signature="22935:22989" placeholder="SELECT email..polls_userprofile..." />
+                <marker date="1471784865058" expanded="true" signature="23855:23908" placeholder="SELECT creat..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="24110:24182" placeholder="SELECT start..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="24509:24532" placeholder="select ustar..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="24509:24582" placeholder="select ustar..missing_valueactivity..." />
+                <marker date="1471784865058" expanded="true" signature="24509:24582" placeholder="select ustar..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="26543:26566" placeholder="select ustar..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="26543:26616" placeholder="select ustar..missing_valueactivity..." />
+                <marker date="1471784865058" expanded="true" signature="28985:29038" placeholder="SELECT creat..quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="29145:29227" placeholder="SELECT ustar..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="30284:30355" placeholder="SELECT uendt..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="30901:30970" placeholder="SELECT ansse..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="31108:31165" placeholder="SELECT ans f..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="31368:31425" placeholder="SELECT ans f..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="31688:31754" placeholder="SELECT mscc,..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="32590:32690" placeholder="select * fro..missing_valueorder..." />
+                <marker date="1471784865058" expanded="true" signature="32914:32968" placeholder="SELECT COUNT..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="34069:34117" placeholder="SELECT passw..polls_quizreg..." />
+                <marker date="1471784865058" expanded="true" signature="34407:34460" placeholder="SELECT quizn..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="34599:34653" placeholder="SELECT COUNT..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="35789:36248" placeholder="CREATE TABLE..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="36293:36540" placeholder="CREATE TABLE..missing_valuelboard..." />
+                <marker date="1471784865058" expanded="true" signature="36585:36738" placeholder="INSERT into ..." />
+                <marker date="1471784865058" expanded="true" signature="38789:38935" placeholder="INSERT INTO ..." />
+                <marker date="1471784865058" expanded="true" signature="39467:39484" placeholder="Select ques ..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="39615:39637" placeholder="Select Count..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="40351:40368" placeholder="Select ques ..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="40499:40521" placeholder="Select Count..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="41244:41291" placeholder="SELECT * fro..polls_quizglobal..." />
+                <marker date="1471784865058" expanded="true" signature="42288:42343" placeholder="Select ques ..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="42482:42589" placeholder="Select opt1,..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="42799:42857" placeholder="Select optio..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="43007:43061" placeholder="Select ans f..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="44017:44067" placeholder="DELETE FROM ..." />
+                <marker date="1471784865058" expanded="true" signature="44128:44149" placeholder="Select Count..." />
+                <marker date="1471784865058" expanded="true" signature="44839:44856" placeholder="Select ques ..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="44971:44993" placeholder="Select Count..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="45860:46007" placeholder="UPDATE polls..." />
+                <marker date="1471784865058" expanded="true" signature="46281:46298" placeholder="Select ques ..missing_value..." />
+                <marker date="1471784865058" expanded="true" signature="46413:46435" placeholder="Select Count..missing_value..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,38 +199,28 @@
       <file leaf-file-name="quizm.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/polls/quizm.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462" vertical-offset="3978" max-vertical-offset="5270">
-              <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="262" selection-end-column="22" />
+            <state vertical-scroll-proportion="-3.6730769" vertical-offset="1543" max-vertical-offset="5270">
+              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuizReg.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/polls/QuizReg.html">
+      <file leaf-file-name="quiz.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/polls/quiz.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state vertical-scroll-proportion="-2.7692308" vertical-offset="944" max-vertical-offset="6817">
+              <caret line="64" column="23" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="registerform.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/polls/registerform.html">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/polls/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="6239">
-              <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quiz_first.htm" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29689807" vertical-offset="2281" max-vertical-offset="3791">
-              <caret line="146" column="47" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="561">
+              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,15 +255,10 @@
         <option value="$PROJECT_DIR$/static/scripts/quiz.js" />
         <option value="$PROJECT_DIR$/polls/misc_functions.py" />
         <option value="$PROJECT_DIR$/templates/quiz.htm" />
-        <option value="$PROJECT_DIR$/static/stylesheets/quiz_first.css" />
         <option value="$PROJECT_DIR$/polls/models.py" />
         <option value="$PROJECT_DIR$/static/stylesheets/verma.css" />
         <option value="$PROJECT_DIR$/templates/polls/verma.htm" />
-        <option value="$PROJECT_DIR$/templates/polls/quiz_table.htm" />
-        <option value="$PROJECT_DIR$/polls/urls.py" />
         <option value="$USER_HOME$/Desktop/counter.py" />
-        <option value="$PROJECT_DIR$/templates/polls/quiz.htm" />
-        <option value="$PROJECT_DIR$/polls/views.py" />
         <option value="$PROJECT_DIR$/templates/findex.htm" />
         <option value="$PROJECT_DIR$/templates/form.html" />
         <option value="$PROJECT_DIR$/templates/register form.html" />
@@ -191,11 +267,17 @@
         <option value="$PROJECT_DIR$/templates/polls/dashboard.html" />
         <option value="$PROJECT_DIR$/templates/polls/findex.htm" />
         <option value="$PROJECT_DIR$/templates/polls/EditOrCreate.htm" />
-        <option value="$PROJECT_DIR$/templates/polls/quizm.htm" />
         <option value="$PROJECT_DIR$/templates/polls/registerform.html" />
-        <option value="$PROJECT_DIR$/templates/polls/select_quiz.html" />
         <option value="$PROJECT_DIR$/templates/polls/template.htm" />
+        <option value="$PROJECT_DIR$/static/stylesheets/quiz_first.css" />
+        <option value="$PROJECT_DIR$/templates/polls/select_quiz.html" />
         <option value="$PROJECT_DIR$/templates/polls/quiz_first.htm" />
+        <option value="$PROJECT_DIR$/templates/polls/quizm.htm" />
+        <option value="$PROJECT_DIR$/templates/polls/quiz.htm" />
+        <option value="$PROJECT_DIR$/polls/urls.py" />
+        <option value="$PROJECT_DIR$/polls/views.py" />
+        <option value="$PROJECT_DIR$/static/stylesheets/quiz_table.css" />
+        <option value="$PROJECT_DIR$/templates/polls/quiz_table.htm" />
       </list>
     </option>
   </component>
@@ -248,7 +330,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sarvasv_git" />
+              <option name="myItemId" value="Sarvasv_Git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -258,7 +340,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sarvasv_git" />
+              <option name="myItemId" value="Sarvasv_Git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -272,11 +354,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Sarvasv_git" />
+              <option name="myItemId" value="Sarvasv_Git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="polls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sarvasv_Git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sarvasv_Git" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sarvasv_Git" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -584,7 +712,7 @@
         <env name="DJANGO_SETTINGS_MODULE" value="untitled.settings" />
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Python\Python35\python.exe" />
+      <option name="SDK_HOME" value="C:\Program Files\Python35\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -662,9 +790,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27633378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1920573" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2584746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1914324" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19076306" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -677,28 +805,6 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968536" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27633378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1920573" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966533" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19076306" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28531075" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -730,20 +836,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/polls/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="672">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="469">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/stylesheets/slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03256705" vertical-offset="0" max-vertical-offset="522">
@@ -851,14 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/stylesheets/quiz_first.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.6479166" vertical-offset="0" max-vertical-offset="2023">
-          <caret line="103" column="38" selection-start-line="103" selection-start-column="38" selection-end-line="103" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/stylesheets/verma.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.83950615" vertical-offset="340" max-vertical-offset="2346">
@@ -889,29 +973,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/polls/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="544">
-          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/scripts/quiz_first.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8367" max-vertical-offset="17561">
-          <caret line="384" column="27" selection-start-line="384" selection-start-column="27" selection-end-line="384" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="731">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="646">
           <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -959,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,14 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1513">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/polls/quiz.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="68" max-vertical-offset="6392">
-          <caret line="5" column="74" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1043,17 +1096,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/polls/quiz_table.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="2533">
-          <caret line="35" column="138" selection-start-line="35" selection-start-column="138" selection-end-line="35" selection-end-column="138" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/QuizReg.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="323">
+        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
           <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
         </state>
@@ -1061,32 +1106,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/registerform.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="6239">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="6239">
           <caret line="5" column="76" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="3060">
-          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/template.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="2244">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2244">
           <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/polls/userprofileform.html">
+    <entry file="file://$USER_HOME$/Desktop/counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="510">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <caret line="5" column="145" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="145" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/stylesheets/quiz_first.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73716635" vertical-offset="1239" max-vertical-offset="2329">
+          <caret line="94" column="12" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1099,26 +1146,163 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/polls/userprofileform.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3076925" vertical-offset="49" max-vertical-offset="510">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/verma.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="4199">
-          <caret line="6" column="62" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="1462" max-vertical-offset="4199">
+          <caret line="102" column="9" selection-start-line="102" selection-start-column="9" selection-end-line="102" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="561">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/polls/quiz.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7692308" vertical-offset="944" max-vertical-offset="6817">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/quizm.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="3978" max-vertical-offset="5270">
-          <caret line="257" column="17" selection-start-line="257" selection-start-column="17" selection-end-line="262" selection-end-column="22" />
+        <state vertical-scroll-proportion="-3.6730769" vertical-offset="1543" max-vertical-offset="5270">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/polls/select_quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="1972" max-vertical-offset="3060">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/polls/quiz_first.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29689807" vertical-offset="2281" max-vertical-offset="3791">
-          <caret line="146" column="47" selection-start-line="146" selection-start-column="47" selection-end-line="146" selection-end-column="47" />
+        <state vertical-scroll-proportion="-5.4615383" vertical-offset="1915" max-vertical-offset="4233">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polls/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.423077" vertical-offset="11716" max-vertical-offset="18309">
+          <caret line="725" column="110" selection-start-line="725" selection-start-column="110" selection-end-line="725" selection-end-column="110" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1471784865058" expanded="true" signature="2311:2359" placeholder="UPDATE polls..." />
+            <marker date="1471784865058" expanded="true" signature="4755:4816" placeholder="Select email..polls_users..." />
+            <marker date="1471784865058" expanded="true" signature="4910:4972" placeholder="Select passw..polls_users..." />
+            <marker date="1471784865058" expanded="true" signature="5067:5128" placeholder="Select colle..polls_users..." />
+            <marker date="1471784865058" expanded="true" signature="5222:5284" placeholder="Select usern..polls_users..." />
+            <marker date="1471784865058" expanded="true" signature="5379:5420" placeholder="DELETE FROM ..." />
+            <marker date="1471784865058" expanded="true" signature="5475:5558" placeholder="INSERT INTO ..." />
+            <marker date="1471784865058" expanded="true" signature="5677:5863" placeholder="CREATE TABLE..missing_valueactivity..." />
+            <marker date="1471784865058" expanded="true" signature="6135:6218" placeholder="INSERT INTO ..." />
+            <marker date="1471784865058" expanded="true" signature="7311:7390" placeholder="UPDATE polls..." />
+            <marker date="1471784865058" expanded="true" signature="8890:8994" placeholder="UPDATE polls..." />
+            <marker date="1471784865058" expanded="true" signature="9724:9794" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471784865058" expanded="true" signature="9907:9976" placeholder="SELECT COUNT..polls_userprofile..." />
+            <marker date="1471784865058" expanded="true" signature="10181:10250" placeholder="SELECT usern..polls_userprofile..." />
+            <marker date="1471784865058" expanded="true" signature="11119:11195" placeholder="SELECT first..polls_userprofile..." />
+            <marker date="1471784865058" expanded="true" signature="12401:12565" placeholder="SELECT quizn..." />
+            <marker date="1471784865058" expanded="true" signature="12945:13036" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="14405:14460" placeholder="SELECT COUNT..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="14582:14689" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="15468:15521" placeholder="SELECT statu..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="15706:15782" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="15909:16016" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="16795:16849" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="17037:17093" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="17362:17467" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="17605:17710" placeholder="SELECT quesn..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="18423:18442" placeholder="SELECT ansse..." />
+            <marker date="1471784865058" expanded="true" signature="18423:18443" placeholder="SELECT ansse..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="18423:18475" placeholder="SELECT ansse..qltable..." />
+            <marker date="1471784865058" expanded="true" signature="18797:18852" placeholder="SELECT ustar..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="19040:19102" placeholder="SELECT endti..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="19978:20037" placeholder="SELECT COUNT..missing_valueactivity..." />
+            <marker date="1471784865058" expanded="true" signature="20161:20268" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="21118:21225" placeholder="SELECT descr..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="22254:22318" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="22472:22493" placeholder="SELECT COUNT..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="22472:22526" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="22642:22723" placeholder="INSERT INTO ..." />
+            <marker date="1471784865058" expanded="true" signature="22794:22867" placeholder="INSERT INTO ..." />
+            <marker date="1471784865058" expanded="true" signature="22935:22989" placeholder="SELECT email..polls_userprofile..." />
+            <marker date="1471784865058" expanded="true" signature="23855:23908" placeholder="SELECT creat..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="24110:24182" placeholder="SELECT start..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="24509:24532" placeholder="select ustar..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="24509:24582" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471784865058" expanded="true" signature="24509:24582" placeholder="select ustar..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="26543:26566" placeholder="select ustar..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="26543:26616" placeholder="select ustar..missing_valueactivity..." />
+            <marker date="1471784865058" expanded="true" signature="28985:29038" placeholder="SELECT creat..quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="29145:29227" placeholder="SELECT ustar..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="30284:30355" placeholder="SELECT uendt..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="30901:30970" placeholder="SELECT ansse..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="31108:31165" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="31368:31425" placeholder="SELECT ans f..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="31688:31754" placeholder="SELECT mscc,..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="32590:32690" placeholder="select * fro..missing_valueorder..." />
+            <marker date="1471784865058" expanded="true" signature="32914:32968" placeholder="SELECT COUNT..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="34069:34117" placeholder="SELECT passw..polls_quizreg..." />
+            <marker date="1471784865058" expanded="true" signature="34407:34460" placeholder="SELECT quizn..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="34599:34653" placeholder="SELECT COUNT..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="35789:36248" placeholder="CREATE TABLE..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="36293:36540" placeholder="CREATE TABLE..missing_valuelboard..." />
+            <marker date="1471784865058" expanded="true" signature="36585:36738" placeholder="INSERT into ..." />
+            <marker date="1471784865058" expanded="true" signature="38789:38935" placeholder="INSERT INTO ..." />
+            <marker date="1471784865058" expanded="true" signature="39467:39484" placeholder="Select ques ..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="39615:39637" placeholder="Select Count..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="40351:40368" placeholder="Select ques ..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="40499:40521" placeholder="Select Count..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="41244:41291" placeholder="SELECT * fro..polls_quizglobal..." />
+            <marker date="1471784865058" expanded="true" signature="42288:42343" placeholder="Select ques ..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="42482:42589" placeholder="Select opt1,..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="42799:42857" placeholder="Select optio..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="43007:43061" placeholder="Select ans f..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="44017:44067" placeholder="DELETE FROM ..." />
+            <marker date="1471784865058" expanded="true" signature="44128:44149" placeholder="Select Count..." />
+            <marker date="1471784865058" expanded="true" signature="44839:44856" placeholder="Select ques ..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="44971:44993" placeholder="Select Count..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="45860:46007" placeholder="UPDATE polls..." />
+            <marker date="1471784865058" expanded="true" signature="46281:46298" placeholder="Select ques ..missing_value..." />
+            <marker date="1471784865058" expanded="true" signature="46413:46435" placeholder="Select Count..missing_value..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/stylesheets/quiz_table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="538" max-vertical-offset="1037">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/polls/quiz_table.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6465324" vertical-offset="0" max-vertical-offset="2635">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding />
         </state>
       </provider>
