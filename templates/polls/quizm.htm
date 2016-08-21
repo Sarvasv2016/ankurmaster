@@ -89,7 +89,7 @@
         <div class="row">
         <div class="col-12 quizml">
             <h1>Quiz Master's Portal</h1>
-            <h2>Quiz Title</h2>
+            <h2>{{ quizname }}</h2>
         {% csrf_token %}
          {% for i in limits %}
             <span id="b{{ i }}"><select id="a{{ i }}" name="a{{ i }}"><option>Options</option><option>Edit</option><option>Delete</option>fghfgvh</select></span>

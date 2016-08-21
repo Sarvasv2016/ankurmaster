@@ -38,21 +38,24 @@ $(document).ready(function(){
     var qdm={{ qdm|safe }};
     var ns={{ nsques }};
     var nm={{ nmques }};
-    for( i=0; i<ns; i++){
+
+    for(var  i=0; i<ns; i++){
         qds[i][0]="a0"+qds[i][0];
     }
-    for( i=0; i<nm; i++){
+    for(var i=0; i<nm; i++){
         qdm[i][0]="b0"+qdm[i][0];
     }
-    var nqs=qds.length;
-    var nqm=qdm.length;
+    var nqs=ns;
+    var nqm=nm;
     var tq=nqs+nqm;
     var qa=0;
      var qust="Question Unattempted: "+(tq);
 
 
         $(".score_board>div:nth-child(3)").text(qust);
-    for(var i=0;i<qds.length;i++){
+    if(ns==0)$(".sc").text("");
+     if(nm==0)$(".mc").text("");
+    for(var i=0;i<nqs;i++){
         var nq=" <div id="+qds[i][0]+"><div><span>Q"+(i+1)+":</span> "+qds[i][1]+"</div>";
         for(var j=2;j<=11;j++){
             if(qds[i][j]!=null)nq+="<div>"+qds[i][j]+"</div>";
@@ -61,7 +64,7 @@ $(document).ready(function(){
         nq+="</div>";
         $(".sc").append(nq);
     }
-    for(var i=0;i<qdm.length;i++){
+    for(var i=0;i<nqm;i++){
         var nq=" <div id="+qdm[i][0]+"><div><span>Q"+(i+1)+":</span> "+qdm[i][1]+"</div>";
         for(var j=2;j<=11;j++){
             if(qdm[i][j]!=null)nq+="<div>"+qdm[i][j]+"</div>";
@@ -73,7 +76,7 @@ $(document).ready(function(){
 
 
 //ans append codes
-  var qapat={{ ansseq }}.split("|");
+  var qapat=("{{ ansseq }}").split("|");
 
     var ui=0;
 
@@ -146,6 +149,7 @@ $(this).addClass("selop");
         var pbp=(qa/tq*100)+"%";
         $(".score_board_progress>div").animate({width:pbp});
         }
+        outajax();
     });
       $(".mc>div>div").click(function(){
 
@@ -188,6 +192,7 @@ $(this).addClass("selop");
         var pbp=(qa/tq*100)+"%";
         $(".score_board_progress>div").animate({width:pbp});
         }
+          outajax();
     });
 
       var sec={{ tleft }};
@@ -217,12 +222,32 @@ $(this).addClass("selop");
 
    }, 1000);
 
+
+function getCookie(c_name) {
+        if(document.cookie.length > 0) {
+            c_start = document.cookie.indexOf(c_name + "=");
+            if(c_start != -1) {
+                c_start = c_start + c_name.length + 1;
+                c_end = document.cookie.indexOf(";", c_start);
+                if(c_end == -1) c_end = document.cookie.length;
+                return unescape(document.cookie.substring(c_start,c_end));
+            }
+        }
+        return "";
+    }
+  $(function () {
+        $.ajaxSetup({
+            headers: {
+                "X-CSRFToken": getCookie("csrftoken")
+            }
+        });
+           });
  function outajax(){
 
           var ans="";
 
       for(var j=0;j<nqs;j++){
-          for(var i=0;i<=10;i++){
+          for(var i=1;i<=10;i++){
           if($(".sc>div").eq(j).children().eq(i).hasClass("selop")){
              ans+="1";
 
@@ -231,7 +256,7 @@ $(this).addClass("selop");
         }ans+="|";
      }
       for(var j=0;j<nqm;j++){
-          for(var i=0;i<=10;i++){
+          for(var i=1;i<=10;i++){
           if($(".mc>div").eq(j).children().eq(i).hasClass("selop")){
              ans+="1";
 
@@ -240,7 +265,7 @@ $(this).addClass("selop");
         }ans+="|";
      }
 
-      $.ajax({url: "/polls/events/selquiz/quiz/QuizPlay/{{ quizname }}/",dataType:"json",data:{ans:ans}, success: function(json){
+      $.ajax({url: "/polls/events/selquiz/quiz/QuizPlay/{{ quizname }}/",dataType:"json",type:'POST',data:{ans:ans,  csrfmiddlewaretoken: '{{ csrftoken }}'}, success: function(json){
        if(json.response=="redirect") window.open("/polls/events/selquiz/quiz/QuizPlay/Score/{{ quizname }}/","_self");
 
      }});

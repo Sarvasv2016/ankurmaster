@@ -35,22 +35,22 @@
 }
 .quizlogs>span>span:nth-child(1){
     font-size: 25px;
-    background: #dbdbdb;
+
     
    
     
 }
 .quizlogs>span>span:nth-child(2){
     font-size: 25px;
-    background: #bfbfbf;
+
     float: right;
    
    
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     
     
-    
+    .quizlogs{width:90%;}
     
     
 }
