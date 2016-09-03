@@ -1,9 +1,11 @@
-from django.conf.urls import url
+from django.conf.urls import url, include
 from . import views
 from polls.views import *
 urlpatterns = [
+ url('', include('social.apps.django_app.urls', namespace='social')),
+ url('', include('django.contrib.auth.urls', namespace='auth')),
+ url(r'^home1/$', views.login),
  url(r'^home/$', views.login),
- url(r'^home1/$', views.func1),
  url(r'^home/dashboard/$', views.dashboard1),
  url(r'^events/selquiz/$', views.selquiz),
  url(r'^register/$', views.register),
