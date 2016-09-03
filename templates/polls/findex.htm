@@ -46,12 +46,24 @@
     <img src="{%static "images/logobed.png"%}" class="logobed">
     <ul>
         <li><span class="plus">Events</span>
-        <ul>
-                <li><a href="#">kulfi</a></li>
-                <li>cone</li>
-                <li>cup</li>
-                <li>bar</li>
-                <li>hello</li>
+        <ul>{% csrf_token %}
+                <li><a href="/polls/events/selquiz/">Quiz</a></li>
+                {% if user and not user.is_anonymous %}
+     <li>
+       <a>Hello {{ user.get_full_name|default:user.username }}!</a>
+     </li>
+     <li>
+       <a href="{% url 'auth:logout' %}?next={{ request.path }}">Logout</a>
+     </li>
+   {% else %}
+     <li>
+       <a href="{% url 'social:begin' 'facebook' %}?next={{ request.path }}">Login with Facebook</a>
+     </li>
+     <li>
+       <a href="{% url 'social:begin' 'google-oauth2' %}?next={{ request.path }}">Login with Google</a>
+     </li>
+
+   {% endif %}
             <li>hello1</li>
             <li>hello2</li>
             <li>hello3</li>
@@ -71,6 +83,7 @@
     <form method="post" action="">
     <fieldset>
         <legend>Login</legend>
+        {% csrf_token %}
         <input type="text" name="uname" placeholder="User name" id="uname1">
         <br><input type="password" name="pwd" placeholder="Password" id="pwd1">
         <br><input type="button" id="loginb" value=" Login ">
@@ -100,12 +113,13 @@
         });
            });
         var uname,pwd;
-        uname = $("#uname1").val();
-         pwd = $("#pwd1").val();
-        uname="qaz";
-        pwd="qwertyuio";
+
+
+
     $("#loginb").click(function(){
-   $.ajax({
+   uname = $("#uname1").val();
+         pwd = $("#pwd1").val();
+        $.ajax({
        type:'POST',
        dataType:"json",
 	url:'http://127.0.0.1:8000/polls/home/',

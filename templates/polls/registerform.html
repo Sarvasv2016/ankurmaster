@@ -87,6 +87,7 @@
                         conpassword = '0';
                         username = '0';
                     }
+
                     else {
 
                     }
@@ -216,11 +217,13 @@
         <li><a>About Us</a></li>
     </ul>
 <form method="post" action="">
+    {% csrf_token %}
     <fieldset>
         <legend>Login</legend>
         <input type="text" name="uname" placeholder="User name">
         <br><input type="password" name="pwd" placeholder="Password">
         <br><input type="submit" value=" Login ">
+
         <ul><li><a href="#">Forgot Password ?</a></li><li><a href="#">Register</a></li></ul>
         </fieldset>
     </form>
@@ -231,7 +234,7 @@
 <div class="bodyc"><br>
     <div class="col-12 border" >
         <h1>Registration </h1>
-{% csrf_token %}
+
         <div class='reg'>
 
             <div class="form">
@@ -283,7 +286,7 @@
 
 {% else %}
 <form method="post" action="/polls/register/{{request.session.eid}}/{{request.session.otp}}/interests/" enctype="multipart/form-data">
-    {% csrf_token %}
+
        <div id="registerform" >
 
            <!--<img src="class="logo2">-->

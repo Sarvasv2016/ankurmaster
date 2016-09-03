@@ -33,7 +33,7 @@ def tablechk(tabname,field1,var):
 
    conn=sqlite3.connect('db.sqlite3')
    cursor=conn.cursor()
-   cursor.execute(" Select Count (*) from "+tabname+" where "+field1+" = ?",(var,))
+   cursor.execute(" Select Count (*) from "+tabname+" where "+field1+" =?",(var,))
    conn.commit()
    chkvar=cursor.fetchone()
    cursor.close()

@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.admindocs',
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',
+    'social.apps.django_app.default',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -94,7 +95,29 @@ DATABASES = {
     }
 }
 
+TEMPLATE_CONTEXT_PROCESSORS = [
+    'django.contrib.auth.context_processors.auth',
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.static',
+    'django.core.context_processors.tz',
+    'django.contrib.messages.context_processors.messages',
+    'social.apps.django_app.context_processors.backends',
+    'social.apps.django_app.context_processors.login_redirect',
+]
 
+AUTHENTICATION_BACKENDS = [
+    'social.backends.facebook.FacebookOAuth2',
+    'social.backends.google.GoogleOAuth2',
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '647934641944-2l4l6rimkk43r5696h9254fkk4rpjc3m.apps.googleusercontent.com'
+SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'ArfPyCAEpM4Z2cB_vaXshgQC'
+
+SOCIAL_AUTH_FACEBOOK_KEY = '1572526323053338'
+SOCIAL_AUTH_FACEBOOK_SECRET = '72f917314d929503c217ca7d7333a712'
 # Password validation
 # https://docs.djangoproject.com/en/1.9/ref/settings/#auth-password-validators
 

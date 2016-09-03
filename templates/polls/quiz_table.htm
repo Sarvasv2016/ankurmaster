@@ -15,7 +15,7 @@
         
         <input type="text" class="searchb" >
         
-        <span class="rightt">{{ usernm }}</span>
+        <span class="rightt">{{ username }}</span>
     
  <img src="{%static "images/glare.png"%}" class="glare">
     </div>
@@ -89,10 +89,10 @@ $(document).ready(function() {
          <!-- Main page content-->
         <h1>Quiz Log</h1>
         <div class="quizlogs">
-            <span><span>  UserName  </span>   <span> {{ username }}  </span></span>
+            <span><span>  UserName  </span>   <span> {{ username0 }}  </span></span>
              <span>  <span> Questions (attempted/ Total) </span>   <span> {{ attques }}/{{ totques }}  </span></span>
-              <span> <span>  Time Spent   </span><span>   {{ dur }}  </span></span>
-             <span>  <span>  Score </span>   <span>   {{ score }}/{{ maxmarks }}  </span></span>
+              <span> <span>  Time Spent   </span><span>   {{ duration0 }}  </span></span>
+             <span>  <span>  Score </span>   <span>   {{ score0 }}/{{ maxmarks }}  </span></span>
              <span>  <span>  Rank </span>  <span> {{ rank }} </span></span>
             
         </div>
