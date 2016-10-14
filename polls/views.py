@@ -247,7 +247,7 @@ def login(request):
         conn.commit()
         c2=cursor.fetchone()
         ch2=c2[0]
-        print("ckk"+str(ch1+ch2))
+        print("ckk"+str(ch1))
         if((ch1+ch2)!=0):
             if(ch2==1):
                 cursor.execute('''SELECT username FROM polls_userprofile where emailid=? AND password=?''',(uname,pwd,))

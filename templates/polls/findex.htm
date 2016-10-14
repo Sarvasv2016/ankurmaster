@@ -129,15 +129,14 @@
 
        	  csrfmiddlewaretoken:'{{csrftoken}}'
 	},
-	success:function(json){
-	if(json.flag==0){
-	   alert("Login id or Password is Incorrect ");
- 	   }
-	else
-    {
-    window.open("http://127.0.0.1:8000/polls/home/dashboard/","_self")
-
-    }
+	success:function(json) {
+        if (json.flag == 0) {
+            alert("Login id or Password is Incorrect ")
+        }
+        else
+        {
+            window.open("http://127.0.0.1:8000/polls/home/dashboard/","_self")
+        }
 	}
 
 	});

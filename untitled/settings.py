@@ -158,7 +158,7 @@ SESSION_COOKIE_AGE=1209600
 
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR,  'templates'),
-    'polls',
+    'polls'
 )
 
 CACHES = {
