@@ -1,0 +1,2 @@
+web: gunicorn untitled.wsgi --log-file -
+worker: python worker.py
